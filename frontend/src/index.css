@@ -58,6 +58,11 @@
   html {
     font-family: 'Inter', system-ui, sans-serif;
     -webkit-tap-highlight-color: transparent;
+    /* 等比放大：Tailwind 的 rem 尺寸（文字/按钮/间距/容器宽度）都基于根字号。
+       基准 16px，随视口变宽平滑放大，让手机布局在 iPad 等大屏上整体等比放大，
+       而不是挤在居中的小块里。375px 手机≈16px，iPad 竖屏(820px)≈23px，
+       iPad 横屏及更大屏封顶 26px。 */
+    font-size: clamp(16px, 2.8vw, 26px);
   }
 
   body {
