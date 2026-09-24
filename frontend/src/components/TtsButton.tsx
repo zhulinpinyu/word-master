@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 interface Props {
   text: string
-  vcn?: string   // 发音人：英文用 'aisxping'（默认），中文用 'xiaoyan'
+  vcn?: string   // 发音人：默认 x4_yezi（中英通用）；中文也可显式传 'x4_yezi'
   className?: string
 }
 

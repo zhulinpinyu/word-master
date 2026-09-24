@@ -119,7 +119,7 @@ export default function QuizPage() {
       // 并行请求两段音频，等都就绪后无缝顺序播放
       Promise.all([
         fetchTtsBlob(currentItem.english),
-        fetchTtsBlob(currentItem.chinese, 'xiaoyan'),
+        fetchTtsBlob(currentItem.chinese, 'x4_yezi'),
       ]).then(([engBlob, zhBlob]) => playBlob(engBlob).then(() => playBlob(zhBlob)))
     } else {
       // spelling：只播英文
@@ -321,7 +321,7 @@ export default function QuizPage() {
                         <p className="text-red-800 font-bold">{correctAnswer}</p>
                         {/* 英译中：朗读中文答案；中译英/拼写：朗读英文答案 */}
                         {currentQuizType === 'en_to_zh'
-                          ? <TtsButton text={currentItem.chinese} vcn="xiaoyan" className="w-6 h-6 shrink-0" />
+                          ? <TtsButton text={currentItem.chinese} vcn="x4_yezi" className="w-6 h-6 shrink-0" />
                           : <TtsButton text={currentItem.english} className="w-6 h-6 shrink-0" />
                         }
                       </div>
