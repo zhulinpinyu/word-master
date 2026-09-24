@@ -83,7 +83,7 @@ export default function RepeatPanel({ item, quizType, onDone }: Props) {
         {quizType === 'en_to_zh' && (
           <div className="flex items-center gap-2">
             <span className="text-xl text-gray-600 font-medium">{item.chinese}</span>
-            <TtsButton text={item.chinese} vcn="xiaoyan" className="w-6 h-6 shrink-0" />
+            <TtsButton text={item.chinese} vcn="x4_yezi" className="w-6 h-6 shrink-0" />
           </div>
         )}
         {/* 节奏提示 */}

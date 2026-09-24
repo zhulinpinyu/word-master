@@ -1,0 +1,166 @@
+happy:开心的
+sad:伤心的
+angry:生气的
+tired:疲倦的
+boy:男孩
+girl:女孩
+I:我
+am:是
+cold:冷的
+OK:对；好；行
+find:找到
+pencil:铅笔
+too:也；太
+well:好；就这样；好啦
+now:现在
+look at the blackboard:看黑板
+Good morning.:上午好
+How are you?:你好吗？
+Not so good.:不太好。
+Let's close the window.:我们把窗户关上吧。
+Fine, thank you.:很好，谢谢。
+grandfather:（外）祖父；爷爷；外公
+grandpa:（外）祖父；爷爷；外公（口语）
+grandmother:（外）祖母；奶奶；外婆
+grandma:（外）祖母；奶奶；外婆（口语）
+father:爸爸
+mother:妈妈
+sister:姐姐；妹妹
+brother:哥哥；弟弟
+me:我
+family:家庭
+my:我的
+name:名字
+is:是
+this:这；这个
+and:和
+she:她
+he:他
+who:谁
+twin:双胞胎之一
+big:大的
+family tree:家庭树
+Hi.:嗨，你好。
+head:头
+eye:眼睛
+ear:耳朵
+mouth:嘴巴
+hair:头发
+nose:鼻子
+face:脸
+a (an):一；一个
+haircut:理发；发型
+your:你的；你们的
+long:长的
+but:但是
+like:喜欢
+see:看见
+sit:坐
+on:在……上
+chair:椅子
+please:请
+you:你；你们
+have:有
+short:短的；个子矮的
+mum:妈妈
+You look great!:你看起来很棒！
+skip:跳绳
+run:跑
+fly a kite:放风筝
+skateboard:滑滑板
+ride a bike:骑自行车
+child:孩子
+children:孩子（复）
+in:在……里面
+the:（表示特指）
+park:公园
+are:是
+can:能够
+fun:有趣的；乐趣
+fast:快的；快；快速
+help:帮助
+together:一起
+get:去取；得到；获得
+bring:带来
+jump:跳
+Hello.:喂，你好。
+milk:牛奶
+juice:果汁
+tomato:西红柿
+carrot:胡萝卜
+apple:苹果
+banana:香蕉
+grape:葡萄
+meat:肉
+fish:鱼；鱼肉
+funny:有趣的
+food:食物
+what:什么
+some:一些
+fruit:水果
+vegetable:蔬菜
+cut:切
+we:我们
+no:不；不是
+for:（表示对象、用途等）给；对
+yes:是的
+chicken:鸡肉
+soup:汤
+squirrel:松鼠
+rabbit:兔子
+cat:猫
+mouse:老鼠
+mice:老鼠（复）
+dog:狗
+frog:青蛙
+day:白天；一天
+it:它
+nice:美好的
+has:有（have的第三人称单数）
+small:小的
+cute:可爱的
+that:那；那个
+they:他们；她们；它们
+tail:尾巴
+two:二；二个（人或物）
+animal:动物
+eat:吃
+bad:坏的
+bug:虫子
+sunny:晴朗的
+sun:太阳
+windy:刮风的
+wind:风
+rainy:下雨的
+rain:雨
+cloudy:多云的
+cloud:云
+different:不同的
+weather:天气
+how:怎样；如何
+today:今天
+hat:帽子
+plant:植物
+hot:热的
+very:非常
+go to the park:去公园
+Hooray!:好极了！
+Oh, dear!:哦，天哪！
+cake:蛋糕
+candle:蜡烛
+gift:礼物
+toy plane:玩具飞机
+doll:洋娃娃
+card:卡片
+noodles:面条
+come:来
+love:爱
+dad:爸爸
+afternoon:下午
+share:分享
+his:他的
+evening:傍晚；晚上
+ten years old:十岁
+go out:出去
+Happy birthday!:生日快乐！
+What a lovely picture!:多么可爱的一幅画啊！

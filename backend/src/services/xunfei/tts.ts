@@ -5,15 +5,15 @@ import { buildWsAuthUrl } from './auth'
  * 讯飞在线语音合成 v2（WebSocket API）
  * 文档：https://www.xfyun.cn/doc/tts/online_tts/API.html
  *
- * 默认发音人：
- *   英文 → aisxping（标准英文男声）
- *   中文 → xiaoyan（小燕，标准女声）
+ * 默认发音人：x4_yezi（叶子 X4，中英混读）
  *
+ * 注：免费基础发音人只有 xiaoyan / aisjiuxu / aisxping / aisjinger / aisbabyxu，
+ * 均为中文声线；讯飞没有免费的纯英文音色（付费音库约 2 万/年）。
  * 注：超拟人接口（super smart-tts）需单独授权，暂用此标准接口。
  */
 export async function synthesize(
   text: string,
-  vcn = 'aisxping',
+  vcn = 'x4_yezi',
 ): Promise<Buffer> {
   const APP_ID = process.env.XUNFEI_APP_ID!
   const url = buildWsAuthUrl('tts-api.xfyun.cn', '/v2/tts')
