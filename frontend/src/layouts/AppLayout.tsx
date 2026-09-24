@@ -6,7 +6,7 @@ export default function AppLayout() {
       <main className="flex-1 pb-16">
         <Outlet />
       </main>
-      <nav className="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-white border-t border-gray-200 flex" style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}>
+      <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 flex" style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}>
         <NavLink
           to="/"
           end
