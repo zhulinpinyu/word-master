@@ -1,0 +1,1038 @@
+{
+  "id": "hjbsz-sanshang",
+  "name": "沪教版（三起）(新)三年级上册",
+  "book": "沪教版（三起） (新)三年级上册",
+  "source": "https://api.suyang123.com/api/jxh5/yy/book/words?version_tag=hjbsz&term_id=1&grade_id=3&stage_id=1",
+  "generatedAt": "2026-09-24",
+  "units": [
+    {
+      "lessonId": 1,
+      "title": "Unit 1 How do we feel?",
+      "words": [
+        {
+          "word": "happy",
+          "phonetic": "ˈhæpi",
+          "chinese": "开心的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763301_1.mp3"
+        },
+        {
+          "word": "sad",
+          "phonetic": "sæd",
+          "chinese": "伤心的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763302_1.mp3"
+        },
+        {
+          "word": "angry",
+          "phonetic": "ˈæŋɡri",
+          "chinese": "生气的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763303_1.mp3"
+        },
+        {
+          "word": "tired",
+          "phonetic": "ˈtaɪəd",
+          "chinese": "疲倦的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763304_1.mp3"
+        },
+        {
+          "word": "boy",
+          "phonetic": "bɔɪ",
+          "chinese": "男孩",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763305_1.mp3"
+        },
+        {
+          "word": "girl",
+          "phonetic": "ɡɜːl",
+          "chinese": "女孩",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763306_1.mp3"
+        },
+        {
+          "word": "I",
+          "phonetic": "aɪ",
+          "chinese": "我",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763307_1.mp3"
+        },
+        {
+          "word": "am",
+          "phonetic": "æm",
+          "chinese": "是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763308_1.mp3"
+        },
+        {
+          "word": "cold",
+          "phonetic": "kəʊld",
+          "chinese": "冷的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763309_1.mp3"
+        },
+        {
+          "word": "OK",
+          "phonetic": "əʊ ˈkeɪ",
+          "chinese": "对；好；行",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763310_1.mp3"
+        },
+        {
+          "word": "find",
+          "phonetic": "faɪnd",
+          "chinese": "找到",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763311_1.mp3"
+        },
+        {
+          "word": "pencil",
+          "phonetic": "ˈpensl",
+          "chinese": "铅笔",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763312_1.mp3"
+        },
+        {
+          "word": "too",
+          "phonetic": "tuː",
+          "chinese": "也；太",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763313_1.mp3"
+        },
+        {
+          "word": "well",
+          "phonetic": "wel",
+          "chinese": "好；就这样；好啦",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763314_1.mp3"
+        },
+        {
+          "word": "now",
+          "phonetic": "naʊ",
+          "chinese": "现在",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763315_1.mp3"
+        },
+        {
+          "word": "look at the blackboard",
+          "chinese": "看黑板",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763316_1.mp3"
+        },
+        {
+          "word": "Good morning.",
+          "chinese": "上午好",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763317_1.mp3"
+        },
+        {
+          "word": "How are you?",
+          "chinese": "你好吗？",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763318_1.mp3"
+        },
+        {
+          "word": "Not so good.",
+          "chinese": "不太好。",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763319_1.mp3"
+        },
+        {
+          "word": "Let's close the window.",
+          "chinese": "我们把窗户关上吧。",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763320_1.mp3"
+        },
+        {
+          "word": "Fine, thank you.",
+          "chinese": "很好，谢谢。",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763321_1.mp3"
+        }
+      ]
+    },
+    {
+      "lessonId": 2,
+      "title": "Unit 2 What's interesting about families?",
+      "words": [
+        {
+          "word": "grandfather",
+          "phonetic": "ˈɡrænfɑːðə(r)",
+          "chinese": "（外）祖父；爷爷；外公",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763322_1.mp3"
+        },
+        {
+          "word": "grandpa",
+          "phonetic": "ˈɡrænpɑː",
+          "chinese": "（外）祖父；爷爷；外公（口语）",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763323_1.mp3"
+        },
+        {
+          "word": "grandmother",
+          "phonetic": "ˈɡrænmʌðə(r)",
+          "chinese": "（外）祖母；奶奶；外婆",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763324_1.mp3"
+        },
+        {
+          "word": "grandma",
+          "phonetic": "ˈɡrænmɑː",
+          "chinese": "（外）祖母；奶奶；外婆（口语）",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763325_1.mp3"
+        },
+        {
+          "word": "father",
+          "phonetic": "ˈfɑːðə(r)",
+          "chinese": "爸爸",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763326_1.mp3"
+        },
+        {
+          "word": "mother",
+          "phonetic": "ˈmʌðə(r)",
+          "chinese": "妈妈",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763327_1.mp3"
+        },
+        {
+          "word": "sister",
+          "phonetic": "ˈsɪstə(r)",
+          "chinese": "姐姐；妹妹",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763328_1.mp3"
+        },
+        {
+          "word": "brother",
+          "phonetic": "ˈbrʌðə(r)",
+          "chinese": "哥哥；弟弟",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763329_1.mp3"
+        },
+        {
+          "word": "me",
+          "phonetic": "miː",
+          "chinese": "我",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763330_1.mp3"
+        },
+        {
+          "word": "family",
+          "phonetic": "ˈfæməli",
+          "chinese": "家庭",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763331_1.mp3"
+        },
+        {
+          "word": "my",
+          "phonetic": "maɪ",
+          "chinese": "我的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763332_1.mp3"
+        },
+        {
+          "word": "name",
+          "phonetic": "neɪm",
+          "chinese": "名字",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763333_1.mp3"
+        },
+        {
+          "word": "is",
+          "phonetic": "ɪz",
+          "chinese": "是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763334_1.mp3"
+        },
+        {
+          "word": "this",
+          "phonetic": "ðɪs",
+          "chinese": " 这；这个",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763335_1.mp3"
+        },
+        {
+          "word": "and",
+          "phonetic": "ænd",
+          "chinese": "和",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763336_1.mp3"
+        },
+        {
+          "word": "she",
+          "phonetic": "ʃiː",
+          "chinese": "她",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763337_1.mp3"
+        },
+        {
+          "word": "he",
+          "phonetic": "hiː",
+          "chinese": "他",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763338_1.mp3"
+        },
+        {
+          "word": "who",
+          "phonetic": "huː",
+          "chinese": "谁",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763339_1.mp3"
+        },
+        {
+          "word": "twin",
+          "phonetic": "twɪn",
+          "chinese": "双胞胎之一",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763340_1.mp3"
+        },
+        {
+          "word": "big",
+          "phonetic": "bɪɡ",
+          "chinese": "大的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763341_1.mp3"
+        },
+        {
+          "word": "family tree",
+          "chinese": "家庭树",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763342_1.mp3"
+        },
+        {
+          "word": "Hi.",
+          "phonetic": "haɪ",
+          "chinese": "嗨，你好。",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763343_1.mp3"
+        }
+      ]
+    },
+    {
+      "lessonId": 3,
+      "title": "Unit 3 What do we look like?",
+      "words": [
+        {
+          "word": "head",
+          "phonetic": "hed",
+          "chinese": "头",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763344_1.mp3"
+        },
+        {
+          "word": "eye",
+          "phonetic": "aɪ",
+          "chinese": "眼睛",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763345_1.mp3"
+        },
+        {
+          "word": "ear",
+          "phonetic": "ɪə(r)",
+          "chinese": "耳朵",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763346_1.mp3"
+        },
+        {
+          "word": "mouth",
+          "phonetic": "maʊθ",
+          "chinese": "嘴巴",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763347_1.mp3"
+        },
+        {
+          "word": "hair",
+          "phonetic": "heə(r)",
+          "chinese": "头发",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763348_1.mp3"
+        },
+        {
+          "word": "nose",
+          "phonetic": "nəʊz",
+          "chinese": "鼻子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763349_1.mp3"
+        },
+        {
+          "word": "face",
+          "phonetic": "feɪs",
+          "chinese": "脸",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763350_1.mp3"
+        },
+        {
+          "word": "a (an)",
+          "phonetic": "ə/(/ən/)",
+          "chinese": " 一；一个",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763351_1.mp3"
+        },
+        {
+          "word": "haircut",
+          "phonetic": "ˈheəkʌt",
+          "chinese": "理发；发型",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763352_1.mp3"
+        },
+        {
+          "word": "your",
+          "phonetic": "jɔː(r)",
+          "chinese": "你的；你们的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763353_1.mp3"
+        },
+        {
+          "word": "long",
+          "phonetic": "lɒŋ",
+          "chinese": "长的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763354_1.mp3"
+        },
+        {
+          "word": "but",
+          "phonetic": "bʌt",
+          "chinese": "但是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763355_1.mp3"
+        },
+        {
+          "word": "like",
+          "phonetic": "laɪk",
+          "chinese": "喜欢",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763356_1.mp3"
+        },
+        {
+          "word": "see",
+          "phonetic": "siː",
+          "chinese": "看见",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763357_1.mp3"
+        },
+        {
+          "word": "sit",
+          "phonetic": "sɪt",
+          "chinese": "坐",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763358_1.mp3"
+        },
+        {
+          "word": "on",
+          "phonetic": "ɒn",
+          "chinese": "在……上",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763359_1.mp3"
+        },
+        {
+          "word": "chair",
+          "phonetic": "tʃeə(r)",
+          "chinese": "椅子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763360_1.mp3"
+        },
+        {
+          "word": "please",
+          "phonetic": "pliːz",
+          "chinese": "请",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763361_1.mp3"
+        },
+        {
+          "word": "you",
+          "phonetic": "juː",
+          "chinese": " 你；你们",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763362_1.mp3"
+        },
+        {
+          "word": "have",
+          "phonetic": "hæv",
+          "chinese": "有",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763363_1.mp3"
+        },
+        {
+          "word": "short",
+          "phonetic": "ʃɔːt",
+          "chinese": "短的；个子矮的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763364_1.mp3"
+        },
+        {
+          "word": "mum",
+          "phonetic": "mʌm",
+          "chinese": "妈妈",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763365_1.mp3"
+        },
+        {
+          "word": "You look great!",
+          "chinese": "你看起来很棒！",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763366_1.mp3"
+        }
+      ]
+    },
+    {
+      "lessonId": 4,
+      "title": "Unit 4 How do we have fun?",
+      "words": [
+        {
+          "word": "skip",
+          "phonetic": "skɪp",
+          "chinese": "跳绳",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763367_1.mp3"
+        },
+        {
+          "word": "run",
+          "phonetic": "rʌn",
+          "chinese": "跑",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763368_1.mp3"
+        },
+        {
+          "word": "fly a kite",
+          "phonetic": "fraɪ ə kaɪt",
+          "chinese": "放风筝",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763369_1.mp3"
+        },
+        {
+          "word": "skateboard",
+          "phonetic": "ˈskeɪtbɔːd",
+          "chinese": "滑滑板",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763370_1.mp3"
+        },
+        {
+          "word": "ride a bike",
+          "chinese": "骑自行车",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763371_1.mp3"
+        },
+        {
+          "word": "child",
+          "phonetic": "tʃaɪld",
+          "chinese": "孩子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763372_1.mp3"
+        },
+        {
+          "word": "children",
+          "phonetic": "ˈtʃɪldrən",
+          "chinese": "孩子（复）",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763373_1.mp3"
+        },
+        {
+          "word": "in",
+          "phonetic": "ɪn",
+          "chinese": "在……里面",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763374_1.mp3"
+        },
+        {
+          "word": "the",
+          "phonetic": "ðə",
+          "chinese": "（表示特指）",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763375_1.mp3"
+        },
+        {
+          "word": "park",
+          "phonetic": "pɑːk",
+          "chinese": "公园",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763376_1.mp3"
+        },
+        {
+          "word": "are",
+          "phonetic": "ɑː(r)",
+          "chinese": "是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763377_1.mp3"
+        },
+        {
+          "word": "can",
+          "phonetic": "kæn",
+          "chinese": "能够",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763378_1.mp3"
+        },
+        {
+          "word": "fun",
+          "phonetic": "fʌn",
+          "chinese": "有趣的；乐趣",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763379_1.mp3"
+        },
+        {
+          "word": "fast",
+          "phonetic": "fɑːst",
+          "chinese": "快的；快；快速",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763380_1.mp3"
+        },
+        {
+          "word": "help",
+          "phonetic": "help",
+          "chinese": "帮助",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763381_1.mp3"
+        },
+        {
+          "word": "together",
+          "phonetic": "təˈɡeðə(r)",
+          "chinese": "一起",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763382_1.mp3"
+        },
+        {
+          "word": "get",
+          "phonetic": "ɡet",
+          "chinese": "去取；得到；获得",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763383_1.mp3"
+        },
+        {
+          "word": "bring",
+          "phonetic": "brɪŋ",
+          "chinese": "带来",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763384_1.mp3"
+        },
+        {
+          "word": "jump",
+          "phonetic": "dʒʌmp",
+          "chinese": "跳",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763385_1.mp3"
+        },
+        {
+          "word": "Hello.",
+          "phonetic": "həˈləʊ",
+          "chinese": "喂，你好。",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763386_1.mp3"
+        }
+      ]
+    },
+    {
+      "lessonId": 5,
+      "title": "Unit 5 What do we eat?",
+      "words": [
+        {
+          "word": "milk",
+          "phonetic": "mɪlk",
+          "chinese": "牛奶",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763387_1.mp3"
+        },
+        {
+          "word": "juice",
+          "phonetic": "dʒuːs",
+          "chinese": "果汁",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763388_1.mp3"
+        },
+        {
+          "word": "tomato",
+          "phonetic": "təˈmɑːtəʊ",
+          "chinese": "西红柿",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763389_1.mp3"
+        },
+        {
+          "word": "carrot",
+          "phonetic": "ˈkærət",
+          "chinese": "胡萝卜",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763390_1.mp3"
+        },
+        {
+          "word": "apple",
+          "phonetic": "ˈæpl",
+          "chinese": "苹果",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763391_1.mp3"
+        },
+        {
+          "word": "banana",
+          "phonetic": "bəˈnɑːnə",
+          "chinese": "香蕉",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763392_1.mp3"
+        },
+        {
+          "word": "grape",
+          "phonetic": "ɡreɪp",
+          "chinese": "葡萄",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763393_1.mp3"
+        },
+        {
+          "word": "meat",
+          "phonetic": "miːt",
+          "chinese": "肉",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763394_1.mp3"
+        },
+        {
+          "word": "fish",
+          "phonetic": "fɪʃ",
+          "chinese": "鱼；鱼肉",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763395_1.mp3"
+        },
+        {
+          "word": "funny",
+          "phonetic": "ˈfʌni",
+          "chinese": "有趣的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763396_1.mp3"
+        },
+        {
+          "word": "food",
+          "phonetic": "fuːd",
+          "chinese": "食物",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763397_1.mp3"
+        },
+        {
+          "word": "what",
+          "phonetic": "wɒt",
+          "chinese": "什么",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763398_1.mp3"
+        },
+        {
+          "word": "some",
+          "phonetic": "sʌm",
+          "chinese": " 一些",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763399_1.mp3"
+        },
+        {
+          "word": "fruit",
+          "phonetic": "fruːt",
+          "chinese": "水果",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763400_1.mp3"
+        },
+        {
+          "word": "vegetable",
+          "phonetic": "ˈvedʒtəbl",
+          "chinese": "蔬菜",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763401_1.mp3"
+        },
+        {
+          "word": "cut",
+          "phonetic": "kʌt",
+          "chinese": "切",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763402_1.mp3"
+        },
+        {
+          "word": "we",
+          "phonetic": "wiː",
+          "chinese": "我们",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763403_1.mp3"
+        },
+        {
+          "word": "no",
+          "phonetic": "nəʊ",
+          "chinese": "不；不是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763404_1.mp3"
+        },
+        {
+          "word": "for",
+          "phonetic": "fɔː(r)",
+          "chinese": "（表示对象、用途等）给；对",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763405_1.mp3"
+        },
+        {
+          "word": "yes",
+          "phonetic": "jes",
+          "chinese": "是的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763406_1.mp3"
+        },
+        {
+          "word": "chicken",
+          "phonetic": "ˈtʃɪkɪn",
+          "chinese": "鸡肉",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763407_1.mp3"
+        },
+        {
+          "word": "soup",
+          "phonetic": "suːp",
+          "chinese": "汤",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763408_1.mp3"
+        }
+      ]
+    },
+    {
+      "lessonId": 6,
+      "title": "Unit 6 What do we like about small animals?",
+      "words": [
+        {
+          "word": "squirrel",
+          "phonetic": "ˈskwɪrəl",
+          "chinese": "松鼠",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763409_1.mp3"
+        },
+        {
+          "word": "rabbit",
+          "phonetic": "ˈræbɪt",
+          "chinese": "兔子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763410_1.mp3"
+        },
+        {
+          "word": "cat",
+          "phonetic": "kæt",
+          "chinese": "猫",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763411_1.mp3"
+        },
+        {
+          "word": "mouse",
+          "phonetic": "maʊs",
+          "chinese": "老鼠",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763412_1.mp3"
+        },
+        {
+          "word": "mice",
+          "phonetic": "maɪs",
+          "chinese": "老鼠（复）",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763413_1.mp3"
+        },
+        {
+          "word": "dog",
+          "phonetic": "dɒɡ",
+          "chinese": "狗",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763414_1.mp3"
+        },
+        {
+          "word": "frog",
+          "phonetic": "frɒɡ",
+          "chinese": "青蛙",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763415_1.mp3"
+        },
+        {
+          "word": "day",
+          "phonetic": "deɪ",
+          "chinese": "白天；一天",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763416_1.mp3"
+        },
+        {
+          "word": "it",
+          "phonetic": "ɪt",
+          "chinese": "它",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763417_1.mp3"
+        },
+        {
+          "word": "nice",
+          "phonetic": "naɪs",
+          "chinese": "美好的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763418_1.mp3"
+        },
+        {
+          "word": "has",
+          "phonetic": "hæz",
+          "chinese": "有（have 的第三人称单数）",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763419_1.mp3"
+        },
+        {
+          "word": "small",
+          "phonetic": "smɔːl",
+          "chinese": "小的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763420_1.mp3"
+        },
+        {
+          "word": "cute",
+          "phonetic": "kjuːt",
+          "chinese": "可爱的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763421_1.mp3"
+        },
+        {
+          "word": "that",
+          "phonetic": "ðæt",
+          "chinese": "那；那个",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763422_1.mp3"
+        },
+        {
+          "word": "they",
+          "phonetic": "ðeɪ",
+          "chinese": "他们；她们；它们",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763423_1.mp3"
+        },
+        {
+          "word": "tail",
+          "phonetic": "teɪl",
+          "chinese": "尾巴",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763424_1.mp3"
+        },
+        {
+          "word": "two",
+          "phonetic": "tuː",
+          "chinese": "二；二个（人或物）",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763425_1.mp3"
+        },
+        {
+          "word": "animal",
+          "phonetic": "ˈænɪml",
+          "chinese": "动物",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763426_1.mp3"
+        },
+        {
+          "word": "eat",
+          "phonetic": "iːt",
+          "chinese": "吃",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763427_1.mp3"
+        },
+        {
+          "word": "bad",
+          "phonetic": "bæd",
+          "chinese": "坏的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763428_1.mp3"
+        },
+        {
+          "word": "bug",
+          "phonetic": "bʌɡ",
+          "chinese": "虫子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763429_1.mp3"
+        }
+      ]
+    },
+    {
+      "lessonId": 7,
+      "title": "Unit 7 What do we know about weather?",
+      "words": [
+        {
+          "word": "sunny",
+          "phonetic": "ˈsʌni",
+          "chinese": "晴朗的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763430_1.mp3"
+        },
+        {
+          "word": "sun",
+          "phonetic": "sʌn",
+          "chinese": "太阳",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763431_1.mp3"
+        },
+        {
+          "word": "windy",
+          "phonetic": "ˈwɪndi",
+          "chinese": "刮风的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763432_1.mp3"
+        },
+        {
+          "word": "wind",
+          "phonetic": "wɪnd",
+          "chinese": "风",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763433_1.mp3"
+        },
+        {
+          "word": "rainy",
+          "phonetic": "ˈreɪni",
+          "chinese": "下雨的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763434_1.mp3"
+        },
+        {
+          "word": "rain",
+          "phonetic": "reɪn",
+          "chinese": "雨",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763435_1.mp3"
+        },
+        {
+          "word": "cloudy",
+          "phonetic": "ˈklaʊdi",
+          "chinese": "多云的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763436_1.mp3"
+        },
+        {
+          "word": "cloud",
+          "phonetic": "klaʊd",
+          "chinese": "云",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763437_1.mp3"
+        },
+        {
+          "word": "different",
+          "phonetic": "ˈdɪfrənt",
+          "chinese": "不同的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763438_1.mp3"
+        },
+        {
+          "word": "weather",
+          "phonetic": "ˈweðə(r)",
+          "chinese": "天气",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763439_1.mp3"
+        },
+        {
+          "word": "how",
+          "phonetic": "haʊ",
+          "chinese": "怎样；如何",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763440_1.mp3"
+        },
+        {
+          "word": "today",
+          "phonetic": "təˈdeɪ",
+          "chinese": "今天",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763441_1.mp3"
+        },
+        {
+          "word": "hat",
+          "phonetic": "hæt",
+          "chinese": "帽子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763442_1.mp3"
+        },
+        {
+          "word": "plant",
+          "phonetic": "plɑːnt",
+          "chinese": "植物",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763443_1.mp3"
+        },
+        {
+          "word": "hot",
+          "phonetic": "hɒt",
+          "chinese": "热的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763444_1.mp3"
+        },
+        {
+          "word": "very",
+          "phonetic": "ˈveri",
+          "chinese": "非常",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763445_1.mp3"
+        },
+        {
+          "word": "go to the park",
+          "chinese": "去公园",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763446_1.mp3"
+        },
+        {
+          "word": "Hooray!",
+          "phonetic": "hʊˈreɪ",
+          "chinese": "好极了！",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763447_1.mp3"
+        },
+        {
+          "word": "Oh, dear!",
+          "chinese": "哦，天哪！",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763448_1.mp3"
+        }
+      ]
+    },
+    {
+      "lessonId": 8,
+      "title": "Unit 8 Why do we like birthdays?",
+      "words": [
+        {
+          "word": "cake",
+          "phonetic": "keɪk",
+          "chinese": "蛋糕",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763449_1.mp3"
+        },
+        {
+          "word": "candle",
+          "phonetic": "ˈkændl",
+          "chinese": "蜡烛",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763450_1.mp3"
+        },
+        {
+          "word": "gift",
+          "phonetic": "ɡɪft",
+          "chinese": "礼物",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763451_1.mp3"
+        },
+        {
+          "word": "toy plane",
+          "chinese": "玩具飞机",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763452_1.mp3"
+        },
+        {
+          "word": "doll",
+          "phonetic": "dɒl",
+          "chinese": "洋娃娃",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763453_1.mp3"
+        },
+        {
+          "word": "card",
+          "phonetic": "kɑːd",
+          "chinese": "卡片",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763454_1.mp3"
+        },
+        {
+          "word": "noodles",
+          "phonetic": "ˈnuːdlz",
+          "chinese": "面条",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763455_1.mp3"
+        },
+        {
+          "word": "come",
+          "phonetic": "kʌm",
+          "chinese": "来",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763456_1.mp3"
+        },
+        {
+          "word": "love",
+          "phonetic": "lʌv",
+          "chinese": "爱",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763457_1.mp3"
+        },
+        {
+          "word": "dad",
+          "phonetic": "dæd",
+          "chinese": "爸爸",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763458_1.mp3"
+        },
+        {
+          "word": "afternoon",
+          "phonetic": "ˌɑːftəˈnuːn",
+          "chinese": "下午",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763459_1.mp3"
+        },
+        {
+          "word": "share",
+          "phonetic": "ʃeər",
+          "chinese": "分享",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763460_1.mp3"
+        },
+        {
+          "word": "his",
+          "phonetic": "hɪz",
+          "chinese": "他的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763461_1.mp3"
+        },
+        {
+          "word": "evening",
+          "phonetic": "ˈiːvnɪŋ",
+          "chinese": "傍晚；晚上",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763462_1.mp3"
+        },
+        {
+          "word": "ten years old",
+          "chinese": "十岁",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763463_1.mp3"
+        },
+        {
+          "word": "go out",
+          "phonetic": "ɡəʊ ˈaʊt",
+          "chinese": "出去",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763464_1.mp3"
+        },
+        {
+          "word": "Happy birthday!",
+          "chinese": "生日快乐！",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763465_1.mp3"
+        },
+        {
+          "word": "What a lovely picture!",
+          "chinese": "多么可爱的一幅 画啊！",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763466_1.mp3"
+        }
+      ]
+    }
+  ]
+}

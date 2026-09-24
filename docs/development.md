@@ -85,6 +85,49 @@ have a good time 玩得开心
 
 ---
 
+## 语音包（真人录音）
+
+播放单词发音时，会优先命中**语音包**里的真人录音（与教材同步），未命中才回退讯飞 TTS。
+语音包数据存放在 `frontend/src/data/voice-packages/<id>.json`，只记录每个单词的远程 MP3 地址，不下载音频文件。
+
+### 生成 / 更新语音包
+
+语音包由脚本从「英语朗读宝」公开接口生成，在仓库根目录执行：
+
+```bash
+# 已内置沪教版（三起）三年级上册（id: hjbsz-sanshang）
+npm run fetch:voice-package
+
+# 新增其它教材：指定 id / 名称 / 版本 tag / 学期 / 年级 / 学段
+node scripts/fetch-voice-package.mjs \
+  --id hjbsz-sanshang --name "沪教版（三起）(新)三年级上册" \
+  --version-tag hjbsz --term 1 --grade 3 --stage 1
+```
+
+| 参数 | 说明 |
+|------|------|
+| `--id` | 语音包标识，同时作为输出文件名 |
+| `--name` | 展示名称 |
+| `--version-tag` | 教材版本 tag（如 `hjbsz` = 沪教版（三起）） |
+| `--term` | 学期：`1`=上册，`2`=下册，`3`=全册 |
+| `--grade` | 年级：`1`~`9` |
+| `--stage` | 学段：`1`=小学，`2`=初中，`3`=高中 |
+| `--out` | 可选，输出路径 |
+
+生成后把新 JSON import 到 `frontend/src/data/voice-packages/index.ts` 的 `VOICE_PACKAGES` 数组即可生效。
+
+### 匹配规则与回退
+
+`frontend/src/utils/voicePackage.ts` 会把单词归一化（转小写、压缩空白、去掉结尾 `. ! ?`）后建索引，
+所以 `Good morning.`、`Hi.`、`a (an)` 这类带标点/括号的词也能命中。
+调用 `playPronunciation()`（`frontend/src/utils/pronunciation.ts`）时：命中语音包 → 播放远程 MP3；未命中 → `POST /api/tts`。
+
+> ⚠️ 当前语音包直接流式播放 CDN 上的 MP3，仍需联网。
+> 若要做成真正可断网使用的离线包，把生成结果里的 `audio` 改成本地路径，
+> 并把 MP3 下载到 `frontend/public/audio/<id>/` 后随代码一起提交即可。
+
+---
+
 ## 测试
 
 ```bash
@@ -143,8 +186,12 @@ word-master/
 │   └── src/
 │       ├── pages/              # 页面组件
 │       ├── components/         # 通用组件（MasteryBar / TtsButton / VoiceInput）
+│       ├── data/voice-packages/# 语音包数据（单词 → 真人录音 URL）
 │       ├── hooks/              # 数据 hooks
+│       ├── utils/              # 工具（发音播放 / 语音包查询 / 音效）
 │       └── api/index.ts        # 所有后端接口封装
+├── scripts/
+│   └── fetch-voice-package.mjs # 从英语朗读宝生成语音包数据
 ├── docs/                       # 设计文档（数据库 schema / UX 设计）
 ├── Dockerfile                  # 三阶段构建
 ├── docker-compose.yml          # 生产部署配置

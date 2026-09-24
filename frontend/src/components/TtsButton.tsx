@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { playPronunciation } from '@/utils/pronunciation'
 
 interface Props {
   text: string
@@ -12,20 +13,10 @@ export default function TtsButton({ text, vcn, className = '' }: Props) {
   const handlePlay = async () => {
     if (playing) return
     setPlaying(true)
+    // 语音包真人录音优先，未命中回退讯飞 TTS
     try {
-      const res = await fetch('/api/tts', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text, ...(vcn ? { vcn } : {}) }),
-      })
-      if (!res.ok) throw new Error('TTS failed')
-      const blob = await res.blob()
-      const url = URL.createObjectURL(blob)
-      const audio = new Audio(url)
-      audio.onended = () => { setPlaying(false); URL.revokeObjectURL(url) }
-      audio.onerror = () => { setPlaying(false); URL.revokeObjectURL(url) }
-      await audio.play()
-    } catch {
+      await playPronunciation(text, vcn)
+    } finally {
       setPlaying(false)
     }
   }

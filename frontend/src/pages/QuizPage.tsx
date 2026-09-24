@@ -5,6 +5,7 @@ import type { Item, QuizSessionDetail, QuizType } from '@/types'
 import TtsButton from '@/components/TtsButton'
 import VoiceInput from '@/components/VoiceInput'
 import RepeatPanel from '@/components/RepeatPanel'
+import { preparePronunciation, playPronunciation, playPronunciationTimes, stopPronunciation } from '@/utils/pronunciation'
 import { playCorrect, playWrong } from '@/utils/sound'
 
 type CardState = 'answering' | 'correct' | 'wrong'
@@ -91,39 +92,30 @@ export default function QuizPage() {
     }
   }, [cardState, currentItem, currentQuizType])
 
-  // 答错后：自动朗读正确答案
+  // 英译中：卡片出现时自动连播英文两遍（屏幕上已显示单词，不剧透）
+  useEffect(() => {
+    if (cardState !== 'answering' || currentQuizType !== 'en_to_zh' || !currentItem) return
+    playPronunciationTimes(currentItem.english, 2)
+    return () => stopPronunciation()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cardState, currentQuizType, currentItem?.id])
+
+  // 答错后：自动朗读正确答案（语音包真人录音优先，未命中回退 TTS）
   useEffect(() => {
     if (cardState !== 'wrong' || !currentItem) return
 
-    // 获取 TTS blob（不播放）
-    const fetchTtsBlob = (text: string, vcn?: string): Promise<Blob | null> =>
-      fetch('/api/tts', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text, ...(vcn ? { vcn } : {}) }),
-      }).then(r => r.ok ? r.blob() : null).catch(() => null)
-
-    // 播放一个 blob，播完 resolve
-    const playBlob = (blob: Blob | null): Promise<void> => {
-      if (!blob) return Promise.resolve()
-      const url = URL.createObjectURL(blob)
-      return new Promise<void>(resolve => {
-        const audio = new Audio(url)
-        audio.onended = () => { URL.revokeObjectURL(url); resolve() }
-        audio.onerror = () => { URL.revokeObjectURL(url); resolve() }
-        audio.play().catch(resolve)
-      })
-    }
-
     if (currentQuizType === 'en_to_zh' || currentQuizType === 'zh_to_en') {
-      // 并行请求两段音频，等都就绪后无缝顺序播放
+      // 并行预备两段音频，等都就绪后无缝顺序播放
       Promise.all([
-        fetchTtsBlob(currentItem.english),
-        fetchTtsBlob(currentItem.chinese, 'x4_yezi'),
-      ]).then(([engBlob, zhBlob]) => playBlob(engBlob).then(() => playBlob(zhBlob)))
+        preparePronunciation(currentItem.english),
+        preparePronunciation(currentItem.chinese, 'x4_yezi'),
+      ]).then(async ([eng, zh]) => {
+        try { if (eng) await eng.play() } finally { eng?.dispose() }
+        try { if (zh) await zh.play() } finally { zh?.dispose() }
+      })
     } else {
       // spelling：只播英文
-      fetchTtsBlob(currentItem.english).then(playBlob)
+      playPronunciation(currentItem.english)
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cardState, currentItem?.id])
