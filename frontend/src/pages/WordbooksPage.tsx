@@ -3,10 +3,12 @@ import { useNavigate } from 'react-router-dom'
 import { getWordbooks, createWordbook, deleteWordbook } from '@/api'
 import type { Wordbook } from '@/types'
 import { useWordbook } from '@/hooks/useWordbook'
+import { useStudent } from '@/hooks/useStudent'
 
 export default function WordbooksPage() {
   const navigate = useNavigate()
-  const { wordbook: currentWb, setWordbook } = useWordbook()
+  const { student } = useStudent()
+  const { wordbook: currentWb, setWordbook, forgetWordbook } = useWordbook(student?.id ?? null)
   const [wordbooks, setWordbooks] = useState<Wordbook[]>([])
   const [loading, setLoading] = useState(true)
   const [showForm, setShowForm] = useState(false)
@@ -83,7 +85,7 @@ export default function WordbooksPage() {
       if (result === null) {
         // 直接删除成功（无学习数据）
         setWordbooks(prev => prev.filter(w => w.id !== wb.id))
-        if (currentWb?.id === wb.id) setWordbook(null)
+        forgetWordbook(wb.id)
       } else if (result.has_data) {
         setConfirmWb(wb)
       }
@@ -98,7 +100,7 @@ export default function WordbooksPage() {
     try {
       await deleteWordbook(confirmWb.id, true)
       setWordbooks(prev => prev.filter(w => w.id !== confirmWb.id))
-      if (currentWb?.id === confirmWb.id) setWordbook(null)
+      forgetWordbook(confirmWb.id)
       setConfirmWb(null)
     } catch (e) {
       setError((e as Error).message)
@@ -118,6 +120,12 @@ export default function WordbooksPage() {
           +
         </button>
       </div>
+
+      {!student && (
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 mb-4">
+          <p className="text-sm text-amber-700">请先到「首页」选择学生，再设置当前词本</p>
+        </div>
+      )}
 
       {loading ? (
         <div className="text-center text-gray-400 py-12">加载中…</div>
@@ -165,7 +173,8 @@ export default function WordbooksPage() {
                   onTouchEnd={() => {
                     if (!longPressTriggeredRef.current) setWordbook(currentWb?.id === wb.id ? null : wb)
                   }}
-                  className={`ml-3 shrink-0 text-xs px-3 py-1.5 rounded-full border transition-colors ${
+                  disabled={!student}
+                  className={`ml-3 shrink-0 text-xs px-3 py-1.5 rounded-full border transition-colors disabled:opacity-40 ${
                     currentWb?.id === wb.id
                       ? 'bg-primary-500 text-white border-primary-500'
                       : 'text-primary-600 border-primary-300'
