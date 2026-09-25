@@ -10,7 +10,7 @@ import VersionTag from '@/components/VersionTag'
 export default function HomePage() {
   const navigate = useNavigate()
   const { student, setStudent } = useStudent()
-  const { wordbook: currentWb } = useWordbook()
+  const { wordbook: currentWb } = useWordbook(student?.id ?? null)
   const [students, setStudents] = useState<Student[]>([])
   const [wordbooks, setWordbooks] = useState<Wordbook[]>([])
   const [showPicker, setShowPicker] = useState(false)

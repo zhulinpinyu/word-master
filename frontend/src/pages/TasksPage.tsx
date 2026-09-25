@@ -8,7 +8,7 @@ import type { TodayTask, WordbookStats } from '@/types'
 export default function TasksPage() {
   const navigate = useNavigate()
   const { student } = useStudent()
-  const { wordbook: selectedWb } = useWordbook()
+  const { wordbook: selectedWb } = useWordbook(student?.id ?? null)
 
   const [task, setTask] = useState<TodayTask | null>(null)
   const [taskLoading, setTaskLoading] = useState(false)

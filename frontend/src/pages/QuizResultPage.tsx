@@ -16,7 +16,7 @@ export default function QuizResultPage() {
   const { sessionId } = useParams<{ sessionId: string }>()
   const navigate = useNavigate()
   const { student } = useStudent()
-  const { wordbook: selectedWb } = useWordbook()
+  const { wordbook: selectedWb } = useWordbook(student?.id ?? null)
   const [session, setSession] = useState<QuizSession | null>(null)
   const [loading, setLoading] = useState(true)
   const [todayTask, setTodayTask] = useState<TodayTask | null>(null)
