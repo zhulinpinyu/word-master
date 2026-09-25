@@ -3,7 +3,7 @@
   "name": "沪教版（三起）(新)三年级上册",
   "book": "沪教版（三起） (新)三年级上册",
   "source": "https://api.suyang123.com/api/jxh5/yy/book/words?version_tag=hjbsz&term_id=1&grade_id=3&stage_id=1",
-  "generatedAt": "2026-09-24",
+  "generatedAt": "2026-09-25",
   "units": [
     {
       "lessonId": 1,
@@ -13,91 +13,106 @@
           "word": "happy",
           "phonetic": "ˈhæpi",
           "chinese": "开心的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763301_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763301_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/03c9f49a-8542-11ea-99d1-b42e9969d22a.jpg"
         },
         {
           "word": "sad",
           "phonetic": "sæd",
           "chinese": "伤心的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763302_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763302_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/e4d13214-8541-11ea-9aca-b42e9969d22a.jpg"
         },
         {
           "word": "angry",
           "phonetic": "ˈæŋɡri",
           "chinese": "生气的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763303_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763303_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/b6c9cf8a-8541-11ea-b645-b42e9969d22a.jpg"
         },
         {
           "word": "tired",
           "phonetic": "ˈtaɪəd",
           "chinese": "疲倦的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763304_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763304_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/373.jpg"
         },
         {
           "word": "boy",
           "phonetic": "bɔɪ",
           "chinese": "男孩",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763305_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763305_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/33f238d0-8467-11ea-96cf-b42e9969d22a.jpg"
         },
         {
           "word": "girl",
           "phonetic": "ɡɜːl",
           "chinese": "女孩",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763306_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763306_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/58e302e2-8467-11ea-af1c-b42e9969d22a.jpg"
         },
         {
           "word": "I",
           "phonetic": "aɪ",
           "chinese": "我",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763307_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763307_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/870de510-a615-11ea-a7d3-b42e99c756f3.jpg"
         },
         {
           "word": "am",
           "phonetic": "æm",
           "chinese": "是",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763308_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763308_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8b448446-f03c-11eb-a3ac-b42e99c756f3.jpg"
         },
         {
           "word": "cold",
           "phonetic": "kəʊld",
           "chinese": "冷的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763309_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763309_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/31aad6e6-f4f2-11eb-8832-00163e135ac6.jpg"
         },
         {
           "word": "OK",
           "phonetic": "əʊ ˈkeɪ",
           "chinese": "对；好；行",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763310_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763310_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/7bc5d594-8461-11ea-a5f8-b42e9969d22a.jpg"
         },
         {
           "word": "find",
           "phonetic": "faɪnd",
           "chinese": "找到",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763311_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763311_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/49337df4-f03c-11eb-aefc-b42e99c756f3.jpg"
         },
         {
           "word": "pencil",
           "phonetic": "ˈpensl",
           "chinese": "铅笔",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763312_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763312_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ecbe1c18-e877-11eb-9ebb-00163e135ac6.jpg"
         },
         {
           "word": "too",
           "phonetic": "tuː",
           "chinese": "也；太",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763313_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763313_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/509db092-f03c-11eb-a6ff-b42e99c756f3.jpg"
         },
         {
           "word": "well",
           "phonetic": "wel",
           "chinese": "好；就这样；好啦",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763314_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763314_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8fb65a32-e929-11eb-b711-00163e135ac6.jpg"
         },
         {
           "word": "now",
           "phonetic": "naʊ",
           "chinese": "现在",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763315_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763315_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ad19d728-f3f8-11eb-813b-00163e135ac6.jpg"
         },
         {
           "word": "look at the blackboard",
@@ -107,12 +122,14 @@
         {
           "word": "Good morning.",
           "chinese": "上午好",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763317_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763317_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/bd62e4d8-f03c-11eb-a755-b42e99c756f3.jpg"
         },
         {
           "word": "How are you?",
           "chinese": "你好吗？",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763318_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763318_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4325.jpg"
         },
         {
           "word": "Not so good.",
@@ -139,121 +156,141 @@
           "word": "grandfather",
           "phonetic": "ˈɡrænfɑːðə(r)",
           "chinese": "（外）祖父；爷爷；外公",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763322_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763322_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ddfdff5c-8468-11ea-a5c8-b42e9969d22a.jpg"
         },
         {
           "word": "grandpa",
           "phonetic": "ˈɡrænpɑː",
           "chinese": "（外）祖父；爷爷；外公（口语）",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763323_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763323_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/44b1e0dc-f03c-11eb-86b2-b42e99c756f3.jpg"
         },
         {
           "word": "grandmother",
           "phonetic": "ˈɡrænmʌðə(r)",
           "chinese": "（外）祖母；奶奶；外婆",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763324_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763324_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/6f1396d0-8468-11ea-9b12-b42e9969d22a.jpg"
         },
         {
           "word": "grandma",
           "phonetic": "ˈɡrænmɑː",
           "chinese": "（外）祖母；奶奶；外婆（口语）",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763325_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763325_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4484ae40-f03c-11eb-9ad6-b42e99c756f3.jpg"
         },
         {
           "word": "father",
           "phonetic": "ˈfɑːðə(r)",
           "chinese": "爸爸",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763326_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763326_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/c9bc9c10-8467-11ea-be24-b42e9969d22a.jpg"
         },
         {
           "word": "mother",
           "phonetic": "ˈmʌðə(r)",
           "chinese": "妈妈",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763327_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763327_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2698f274-8468-11ea-89b2-b42e9969d22a.jpg"
         },
         {
           "word": "sister",
           "phonetic": "ˈsɪstə(r)",
           "chinese": "姐姐；妹妹",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763328_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763328_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3a40a970-8468-11ea-b653-b42e9969d22a.jpg"
         },
         {
           "word": "brother",
           "phonetic": "ˈbrʌðə(r)",
           "chinese": "哥哥；弟弟",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763329_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763329_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/df31f418-8465-11ea-a69e-b42e9969d22a.jpg"
         },
         {
           "word": "me",
           "phonetic": "miː",
           "chinese": "我",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763330_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763330_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8e7a8f92-f03c-11eb-9763-b42e99c756f3.jpg"
         },
         {
           "word": "family",
           "phonetic": "ˈfæməli",
           "chinese": "家庭",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763331_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763331_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/0e143012-8469-11ea-9016-b42e9969d22a.jpg"
         },
         {
           "word": "my",
           "phonetic": "maɪ",
           "chinese": "我的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763332_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763332_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/07ee07fe-a618-11ea-bedb-b42e99c756f3.jpg"
         },
         {
           "word": "name",
           "phonetic": "neɪm",
           "chinese": "名字",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763333_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763333_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8ef0a5da-f987-11eb-86c6-00163e135ac6.jpg"
         },
         {
           "word": "is",
           "phonetic": "ɪz",
           "chinese": "是",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763334_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763334_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/e5be976c-a617-11ea-bc7e-b42e99c756f3.jpg"
         },
         {
           "word": "this",
           "phonetic": "ðɪs",
           "chinese": " 这；这个",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763335_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763335_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8a2fa95c-a617-11ea-9aaa-b42e99c756f3.jpg"
         },
         {
           "word": "and",
           "phonetic": "ænd",
           "chinese": "和",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763336_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763336_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ec5ef448-f0df-11eb-a80c-00163e135ac6.jpg"
         },
         {
           "word": "she",
           "phonetic": "ʃiː",
           "chinese": "她",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763337_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763337_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/7d18e1c0-f0df-11eb-8753-00163e135ac6.jpg"
         },
         {
           "word": "he",
           "phonetic": "hiː",
           "chinese": "他",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763338_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763338_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/69cd1464-b45a-11ea-9d54-b42e99c756f3.jpg"
         },
         {
           "word": "who",
           "phonetic": "huː",
           "chinese": "谁",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763339_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763339_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8d63085c-ccb0-11ea-80dc-b42e99c756f3.jpg"
         },
         {
           "word": "twin",
           "phonetic": "twɪn",
           "chinese": "双胞胎之一",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763340_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763340_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2929.jpg"
         },
         {
           "word": "big",
           "phonetic": "bɪɡ",
           "chinese": "大的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763341_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763341_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5f553cae-846a-11ea-9d4d-b42e9969d22a.jpg"
         },
         {
           "word": "family tree",
@@ -276,43 +313,50 @@
           "word": "head",
           "phonetic": "hed",
           "chinese": "头",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763344_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763344_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/99dbf3ee-e5e3-11eb-97b1-00163e135ac6.png"
         },
         {
           "word": "eye",
           "phonetic": "aɪ",
           "chinese": "眼睛",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763345_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763345_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5c546812-e5e3-11eb-a1f8-00163e135ac6.jpg"
         },
         {
           "word": "ear",
           "phonetic": "ɪə(r)",
           "chinese": "耳朵",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763346_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763346_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/bfff22ee-8461-11ea-b16a-b42e9969d22a.jpg"
         },
         {
           "word": "mouth",
           "phonetic": "maʊθ",
           "chinese": "嘴巴",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763347_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763347_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/0b38d076-8462-11ea-9983-b42e9969d22a.jpg"
         },
         {
           "word": "hair",
           "phonetic": "heə(r)",
           "chinese": "头发",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763348_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763348_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4b9d90ee-8471-11ea-9a8c-b42e9969d22a.jpg"
         },
         {
           "word": "nose",
           "phonetic": "nəʊz",
           "chinese": "鼻子",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763349_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763349_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ff572610-f0da-11eb-8e14-00163e135ac6.jpg"
         },
         {
           "word": "face",
           "phonetic": "feɪs",
           "chinese": "脸",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763350_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763350_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/f7a15e90-f0da-11eb-8262-00163e135ac6.jpg"
         },
         {
           "word": "a (an)",
@@ -324,85 +368,99 @@
           "word": "haircut",
           "phonetic": "ˈheəkʌt",
           "chinese": "理发；发型",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763352_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763352_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3430.jpg"
         },
         {
           "word": "your",
           "phonetic": "jɔː(r)",
           "chinese": "你的；你们的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763353_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763353_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/f557fad0-fa7c-11eb-b95d-00163e135ac6.jpg"
         },
         {
           "word": "long",
           "phonetic": "lɒŋ",
           "chinese": "长的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763354_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763354_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/312b122e-846a-11ea-8091-b42e9969d22a.jpg"
         },
         {
           "word": "but",
           "phonetic": "bʌt",
           "chinese": "但是",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763355_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763355_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4abd1a7a-f03c-11eb-a840-b42e99c756f3.jpg"
         },
         {
           "word": "like",
           "phonetic": "laɪk",
           "chinese": "喜欢",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763356_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763356_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/652835d8-f03c-11eb-b46e-b42e99c756f3.jpg"
         },
         {
           "word": "see",
           "phonetic": "siː",
           "chinese": "看见",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763357_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763357_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8f573ac0-f03c-11eb-8562-b42e99c756f3.jpg"
         },
         {
           "word": "sit",
           "phonetic": "sɪt",
           "chinese": "坐",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763358_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763358_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/1d7fd636-f4d8-11eb-bec9-00163e135ac6.png"
         },
         {
           "word": "on",
           "phonetic": "ɒn",
           "chinese": "在……上",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763359_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763359_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/453f747a-f03c-11eb-aed5-b42e99c756f3.jpg"
         },
         {
           "word": "chair",
           "phonetic": "tʃeə(r)",
           "chinese": "椅子",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763360_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763360_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/36da57e2-846b-11ea-8ef2-b42e9969d22a.jpg"
         },
         {
           "word": "please",
           "phonetic": "pliːz",
           "chinese": "请",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763361_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763361_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/73e2f96e-f03c-11eb-8b83-b42e99c756f3.jpg"
         },
         {
           "word": "you",
           "phonetic": "juː",
           "chinese": " 你；你们",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763362_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763362_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a100de94-a625-11ea-85ba-b42e99c756f3.jpg"
         },
         {
           "word": "have",
           "phonetic": "hæv",
           "chinese": "有",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763363_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763363_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/71347cfe-f4f2-11eb-bd18-00163e135ac6.jpg"
         },
         {
           "word": "short",
           "phonetic": "ʃɔːt",
           "chinese": "短的；个子矮的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763364_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763364_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/55f08cf6-f4ea-11eb-9609-00163e135ac6.jpg"
         },
         {
           "word": "mum",
           "phonetic": "mʌm",
           "chinese": "妈妈",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763365_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763365_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/95c2df28-8461-11ea-b65e-b42e9969d22a.jpg"
         },
         {
           "word": "You look great!",
@@ -419,114 +477,133 @@
           "word": "skip",
           "phonetic": "skɪp",
           "chinese": "跳绳",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763367_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763367_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/A04_skip.jpg"
         },
         {
           "word": "run",
           "phonetic": "rʌn",
           "chinese": "跑",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763368_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763368_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8a15adfa-a635-11ea-9511-b42e99c756f3.jpg"
         },
         {
           "word": "fly a kite",
           "phonetic": "fraɪ ə kaɪt",
           "chinese": "放风筝",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763369_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763369_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/063564ca-b45c-11ea-acea-b42e99c756f3.jpg"
         },
         {
           "word": "skateboard",
           "phonetic": "ˈskeɪtbɔːd",
           "chinese": "滑滑板",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763370_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763370_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4046.jpg"
         },
         {
           "word": "ride a bike",
           "chinese": "骑自行车",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763371_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763371_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/14075092-b45c-11ea-a9af-b42e99c756f3.jpg"
         },
         {
           "word": "child",
           "phonetic": "tʃaɪld",
           "chinese": "孩子",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763372_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763372_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8da090ca-f03c-11eb-bd27-b42e99c756f3.jpg"
         },
         {
           "word": "children",
           "phonetic": "ˈtʃɪldrən",
           "chinese": "孩子（复）",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763373_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763373_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3ff42ffa-8472-11ea-aeb1-b42e9969d22a.jpg"
         },
         {
           "word": "in",
           "phonetic": "ɪn",
           "chinese": "在……里面",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763374_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763374_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4563d498-f03c-11eb-9d47-b42e99c756f3.jpg"
         },
         {
           "word": "the",
           "phonetic": "ðə",
           "chinese": "（表示特指）",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763375_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763375_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/03d0191a-f03d-11eb-aedf-b42e99c756f3.jpg"
         },
         {
           "word": "park",
           "phonetic": "pɑːk",
           "chinese": "公园",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763376_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763376_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/1c505db6-8510-11ea-82d0-b42e9969d22a.jpg"
         },
         {
           "word": "are",
           "phonetic": "ɑː(r)",
           "chinese": "是",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763377_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763377_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4e1cc776-a625-11ea-8a29-b42e99c756f3.jpg"
         },
         {
           "word": "can",
           "phonetic": "kæn",
           "chinese": "能够",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763378_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763378_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4c821c80-a626-11ea-9874-b42e99c756f3.jpg"
         },
         {
           "word": "fun",
           "phonetic": "fʌn",
           "chinese": "有趣的；乐趣",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763379_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763379_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/720b6e74-f03c-11eb-b1da-b42e99c756f3.jpg"
         },
         {
           "word": "fast",
           "phonetic": "fɑːst",
           "chinese": "快的；快；快速",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763380_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763380_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/f1297dee-e924-11eb-8e7e-00163e135ac6.jpg"
         },
         {
           "word": "help",
           "phonetic": "help",
           "chinese": "帮助",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763381_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763381_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4726c9fa-f03c-11eb-9550-b42e99c756f3.jpg"
         },
         {
           "word": "together",
           "phonetic": "təˈɡeðə(r)",
           "chinese": "一起",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763382_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763382_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5e5675f8-853e-11ea-b170-b42e9969d22a.jpg"
         },
         {
           "word": "get",
           "phonetic": "ɡet",
           "chinese": "去取；得到；获得",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763383_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763383_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/405fc07c-e924-11eb-abe7-00163e135ac6.jpg"
         },
         {
           "word": "bring",
           "phonetic": "brɪŋ",
           "chinese": "带来",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763384_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763384_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/880671ae-f03c-11eb-8c91-b42e99c756f3.jpg"
         },
         {
           "word": "jump",
           "phonetic": "dʒʌmp",
           "chinese": "跳",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763385_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763385_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/98659434-f03c-11eb-a684-b42e99c756f3.jpg"
         },
         {
           "word": "Hello.",
@@ -544,133 +621,155 @@
           "word": "milk",
           "phonetic": "mɪlk",
           "chinese": "牛奶",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763387_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763387_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/070c6b6a-f0de-11eb-b59e-00163e135ac6.jpg"
         },
         {
           "word": "juice",
           "phonetic": "dʒuːs",
           "chinese": "果汁",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763388_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763388_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4c34f900-e5e4-11eb-bfd1-00163e135ac6.png"
         },
         {
           "word": "tomato",
           "phonetic": "təˈmɑːtəʊ",
           "chinese": "西红柿",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763389_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763389_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/e9b6a8ee-847c-11ea-b653-b42e9969d22a.jpg"
         },
         {
           "word": "carrot",
           "phonetic": "ˈkærət",
           "chinese": "胡萝卜",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763390_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763390_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8578c6e4-2e89-11ed-ba97-00163e135ac6.jpg"
         },
         {
           "word": "apple",
           "phonetic": "ˈæpl",
           "chinese": "苹果",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763391_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763391_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/05295712-846c-11ea-a4ec-b42e9969d22a.jpg"
         },
         {
           "word": "banana",
           "phonetic": "bəˈnɑːnə",
           "chinese": "香蕉",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763392_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763392_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3d7ef228-846c-11ea-84d5-b42e9969d22a.jpg"
         },
         {
           "word": "grape",
           "phonetic": "ɡreɪp",
           "chinese": "葡萄",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763393_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763393_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/766c03a8-846c-11ea-a19d-b42e9969d22a.jpg"
         },
         {
           "word": "meat",
           "phonetic": "miːt",
           "chinese": "肉",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763394_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763394_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/87ae9cb0-a62c-11ea-9cc6-b42e99c756f3.jpg"
         },
         {
           "word": "fish",
           "phonetic": "fɪʃ",
           "chinese": "鱼；鱼肉",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763395_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763395_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/d3e6fb18-8464-11ea-8b9f-b42e9969d22a.jpg"
         },
         {
           "word": "funny",
           "phonetic": "ˈfʌni",
           "chinese": "有趣的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763396_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763396_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/7931fc74-f0dd-11eb-b174-00163e135ac6.jpg"
         },
         {
           "word": "food",
           "phonetic": "fuːd",
           "chinese": "食物",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763397_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763397_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/92208692-f4fc-11eb-b10d-00163e135ac6.png"
         },
         {
           "word": "what",
           "phonetic": "wɒt",
           "chinese": "什么",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763398_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763398_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/21950176-a618-11ea-9516-b42e99c756f3.jpg"
         },
         {
           "word": "some",
           "phonetic": "sʌm",
           "chinese": " 一些",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763399_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763399_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8f9716ee-f03c-11eb-9f90-b42e99c756f3.jpg"
         },
         {
           "word": "fruit",
           "phonetic": "fruːt",
           "chinese": "水果",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763400_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763400_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/9fa6aae6-846c-11ea-bbc8-b42e9969d22a.jpg"
         },
         {
           "word": "vegetable",
           "phonetic": "ˈvedʒtəbl",
           "chinese": "蔬菜",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763401_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763401_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a487a694-8474-11ea-9ebb-b42e9969d22a.jpg"
         },
         {
           "word": "cut",
           "phonetic": "kʌt",
           "chinese": "切",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763402_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763402_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a91fc560-ea02-11eb-a1d0-00163e135ac6.jpg"
         },
         {
           "word": "we",
           "phonetic": "wiː",
           "chinese": "我们",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763403_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763403_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/80ac1ac2-a62f-11ea-8b73-b42e99c756f3.jpg"
         },
         {
           "word": "no",
           "phonetic": "nəʊ",
           "chinese": "不；不是",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763404_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763404_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/c2c78c80-845e-11ea-acab-b42e9969d22a.jpg"
         },
         {
           "word": "for",
           "phonetic": "fɔː(r)",
           "chinese": "（表示对象、用途等）给；对",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763405_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763405_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/6ff70c82-f03c-11eb-a412-b42e99c756f3.jpg"
         },
         {
           "word": "yes",
           "phonetic": "jes",
           "chinese": "是的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763406_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763406_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/cf03c00a-a625-11ea-bada-b42e99c756f3.jpg"
         },
         {
           "word": "chicken",
           "phonetic": "ˈtʃɪkɪn",
           "chinese": "鸡肉",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763407_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763407_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/6e106ea2-8474-11ea-9964-b42e9969d22a.jpg"
         },
         {
           "word": "soup",
           "phonetic": "suːp",
           "chinese": "汤",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763408_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763408_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/940da4a2-8474-11ea-bbf2-b42e9969d22a.jpg"
         }
       ]
     },
@@ -682,121 +781,141 @@
           "word": "squirrel",
           "phonetic": "ˈskwɪrəl",
           "chinese": "松鼠",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763409_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763409_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/b8928558-a6e0-11ea-a096-b42e99c756f3.jpg"
         },
         {
           "word": "rabbit",
           "phonetic": "ˈræbɪt",
           "chinese": "兔子",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763410_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763410_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4b4cec52-8529-11ea-ab05-b42e9969d22a.jpg"
         },
         {
           "word": "cat",
           "phonetic": "kæt",
           "chinese": "猫",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763411_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763411_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/b5370d0e-e5e3-11eb-9721-00163e135ac6.jpg"
         },
         {
           "word": "mouse",
           "phonetic": "maʊs",
           "chinese": "老鼠",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763412_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763412_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/e1a2b8cc-f509-11eb-b756-00163e135ac6.jpg"
         },
         {
           "word": "mice",
           "phonetic": "maɪs",
           "chinese": "老鼠（复）",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763413_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763413_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a5c100c6-8542-11ea-a260-b42e9969d22a.jpg"
         },
         {
           "word": "dog",
           "phonetic": "dɒɡ",
           "chinese": "狗",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763414_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763414_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/c7b45a90-e5e3-11eb-9f6d-00163e135ac6.png"
         },
         {
           "word": "frog",
           "phonetic": "frɒɡ",
           "chinese": "青蛙",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763415_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763415_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/d6d397d2-a6e0-11ea-8a7b-b42e99c756f3.jpg"
         },
         {
           "word": "day",
           "phonetic": "deɪ",
           "chinese": "白天；一天",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763416_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763416_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a32b8e82-fa7e-11eb-91e7-00163e135ac6.jpg"
         },
         {
           "word": "it",
           "phonetic": "ɪt",
           "chinese": "它",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763417_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763417_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3bb1f8b0-a618-11ea-a1ed-b42e99c756f3.jpg"
         },
         {
           "word": "nice",
           "phonetic": "naɪs",
           "chinese": "美好的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763418_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763418_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/501a9258-f03c-11eb-9193-b42e99c756f3.jpg"
         },
         {
           "word": "has",
           "phonetic": "hæz",
           "chinese": "有（have 的第三人称单数）",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763419_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763419_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/793cbc76-f03c-11eb-b0f7-b42e99c756f3.jpg"
         },
         {
           "word": "small",
           "phonetic": "smɔːl",
           "chinese": "小的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763420_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763420_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5cbf5f08-f4ea-11eb-9a9c-00163e135ac6.jpg"
         },
         {
           "word": "cute",
           "phonetic": "kjuːt",
           "chinese": "可爱的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763421_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763421_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/47f03136-f03c-11eb-8914-b42e99c756f3.jpg"
         },
         {
           "word": "that",
           "phonetic": "ðæt",
           "chinese": "那；那个",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763422_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763422_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/70ad4c34-f03c-11eb-87b4-b42e99c756f3.jpg"
         },
         {
           "word": "they",
           "phonetic": "ðeɪ",
           "chinese": "他们；她们；它们",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763423_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763423_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ae8504e4-a630-11ea-9192-b42e99c756f3.jpg"
         },
         {
           "word": "tail",
           "phonetic": "teɪl",
           "chinese": "尾巴",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763424_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763424_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/e24445b6-846a-11ea-9d15-b42e9969d22a.jpg"
         },
         {
           "word": "two",
           "phonetic": "tuː",
           "chinese": "二；二个（人或物）",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763425_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763425_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3c85720a-f0de-11eb-8df4-00163e135ac6.jpg"
         },
         {
           "word": "animal",
           "phonetic": "ˈænɪml",
           "chinese": "动物",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763426_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763426_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/d23544f8-847d-11ea-af58-b42e9969d22a.jpg"
         },
         {
           "word": "eat",
           "phonetic": "iːt",
           "chinese": "吃",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763427_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763427_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3695222c-847e-11ea-b0cb-b42e9969d22a.jpg"
         },
         {
           "word": "bad",
           "phonetic": "bæd",
           "chinese": "坏的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763428_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763428_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5ada69a2-e929-11eb-98cd-00163e135ac6.jpg"
         },
         {
           "word": "bug",
@@ -814,102 +933,119 @@
           "word": "sunny",
           "phonetic": "ˈsʌni",
           "chinese": "晴朗的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763430_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763430_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/89c6ac52-847b-11ea-89fc-b42e9969d22a.jpg"
         },
         {
           "word": "sun",
           "phonetic": "sʌn",
           "chinese": "太阳",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763431_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763431_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/A11_sun.jpg"
         },
         {
           "word": "windy",
           "phonetic": "ˈwɪndi",
           "chinese": "刮风的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763432_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763432_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/9a3e2218-847b-11ea-89b8-b42e9969d22a.jpg"
         },
         {
           "word": "wind",
           "phonetic": "wɪnd",
           "chinese": "风",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763433_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763433_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3577.jpg"
         },
         {
           "word": "rainy",
           "phonetic": "ˈreɪni",
           "chinese": "下雨的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763434_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763434_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/cdd8ee6c-847b-11ea-b567-b42e9969d22a.jpg"
         },
         {
           "word": "rain",
           "phonetic": "reɪn",
           "chinese": "雨",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763435_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763435_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/A04_rain.jpg"
         },
         {
           "word": "cloudy",
           "phonetic": "ˈklaʊdi",
           "chinese": "多云的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763436_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763436_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ad3f9a6c-847b-11ea-8c62-b42e9969d22a.jpg"
         },
         {
           "word": "cloud",
           "phonetic": "klaʊd",
           "chinese": "云",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763437_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763437_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/A12_cloud.jpg"
         },
         {
           "word": "different",
           "phonetic": "ˈdɪfrənt",
           "chinese": "不同的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763438_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763438_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/e7ebc428-8543-11ea-adfa-b42e9969d22a.jpg"
         },
         {
           "word": "weather",
           "phonetic": "ˈweðə(r)",
           "chinese": "天气",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763439_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763439_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/f7fc5624-847b-11ea-9fac-b42e9969d22a.jpg"
         },
         {
           "word": "how",
           "phonetic": "haʊ",
           "chinese": "怎样；如何",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763440_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763440_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/98ac18be-a618-11ea-9fb8-b42e99c756f3.jpg"
         },
         {
           "word": "today",
           "phonetic": "təˈdeɪ",
           "chinese": "今天",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763441_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763441_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ac89edae-8467-11ea-87f0-b42e9969d22a.jpg"
         },
         {
           "word": "hat",
           "phonetic": "hæt",
           "chinese": "帽子",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763442_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763442_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/905290aa-f3fb-11eb-9334-00163e135ac6.jpg"
         },
         {
           "word": "plant",
           "phonetic": "plɑːnt",
           "chinese": "植物",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763443_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763443_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/31342430-8517-11ea-b7ed-b42e9969d22a.jpg"
         },
         {
           "word": "hot",
           "phonetic": "hɒt",
           "chinese": "热的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763444_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763444_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/7bb07948-847b-11ea-a2d4-b42e9969d22a.jpg"
         },
         {
           "word": "very",
           "phonetic": "ˈveri",
           "chinese": "非常",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763445_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763445_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8f2c87a4-f03c-11eb-a4a7-b42e99c756f3.jpg"
         },
         {
           "word": "go to the park",
           "chinese": "去公园",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763446_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763446_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/7d954192-03f0-11ec-997c-b42e99c756f3.jpg"
         },
         {
           "word": "Hooray!",
@@ -932,84 +1068,98 @@
           "word": "cake",
           "phonetic": "keɪk",
           "chinese": "蛋糕",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763449_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763449_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/30770e24-f0de-11eb-acc1-00163e135ac6.jpg"
         },
         {
           "word": "candle",
           "phonetic": "ˈkændl",
           "chinese": "蜡烛",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763450_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763450_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/68ac5204-7f6c-11ed-9d2d-00163e135ac6.png"
         },
         {
           "word": "gift",
           "phonetic": "ɡɪft",
           "chinese": "礼物",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763451_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763451_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/003a517e-8535-11ea-801c-b42e9969d22a.jpg"
         },
         {
           "word": "toy plane",
           "chinese": "玩具飞机",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763452_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763452_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4121.jpg"
         },
         {
           "word": "doll",
           "phonetic": "dɒl",
           "chinese": "洋娃娃",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763453_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763453_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/36140938-a626-11ea-a052-b42e99c756f3.jpg"
         },
         {
           "word": "card",
           "phonetic": "kɑːd",
           "chinese": "卡片",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763454_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763454_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/dbec0bfe-a628-11ea-8b7b-b42e99c756f3.jpg"
         },
         {
           "word": "noodles",
           "phonetic": "ˈnuːdlz",
           "chinese": "面条",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763455_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763455_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/810d154c-8474-11ea-8b49-b42e9969d22a.jpg"
         },
         {
           "word": "come",
           "phonetic": "kʌm",
           "chinese": "来",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763456_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763456_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/737d36c6-f03c-11eb-b155-b42e99c756f3.jpg"
         },
         {
           "word": "love",
           "phonetic": "lʌv",
           "chinese": "爱",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763457_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763457_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4db3ebd2-f03c-11eb-adfa-b42e99c756f3.jpg"
         },
         {
           "word": "dad",
           "phonetic": "dæd",
           "chinese": "爸爸",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763458_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763458_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/d4ef8582-f0e1-11eb-ae1f-00163e135ac6.jpg"
         },
         {
           "word": "afternoon",
           "phonetic": "ˌɑːftəˈnuːn",
           "chinese": "下午",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763459_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763459_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5edadce4-a62c-11ea-86a8-b42e99c756f3.jpg"
         },
         {
           "word": "share",
           "phonetic": "ʃeər",
           "chinese": "分享",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763460_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763460_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4109b044-e926-11eb-8cb6-00163e135ac6.jpg"
         },
         {
           "word": "his",
           "phonetic": "hɪz",
           "chinese": "他的",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763461_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763461_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/485a13fe-f03c-11eb-b423-b42e99c756f3.jpg"
         },
         {
           "word": "evening",
           "phonetic": "ˈiːvnɪŋ",
           "chinese": "傍晚；晚上",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763462_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763462_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/05706f42-853c-11ea-bd2a-b42e9969d22a.jpg"
         },
         {
           "word": "ten years old",
@@ -1020,12 +1170,14 @@
           "word": "go out",
           "phonetic": "ɡəʊ ˈaʊt",
           "chinese": "出去",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763464_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763464_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/9b85805c-f03c-11eb-9c6e-b42e99c756f3.jpg"
         },
         {
           "word": "Happy birthday!",
           "chinese": "生日快乐！",
-          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763465_1.mp3"
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/3002255/763465_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2908.jpg"
         },
         {
           "word": "What a lovely picture!",

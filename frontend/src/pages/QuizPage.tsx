@@ -6,6 +6,7 @@ import TtsButton from '@/components/TtsButton'
 import VoiceInput from '@/components/VoiceInput'
 import RepeatPanel from '@/components/RepeatPanel'
 import { preparePronunciation, playPronunciation, playPronunciationTimes, stopPronunciation } from '@/utils/pronunciation'
+import { resolveWordImage } from '@/utils/voicePackage'
 import { playCorrect, playWrong } from '@/utils/sound'
 
 type CardState = 'answering' | 'correct' | 'wrong'
@@ -222,6 +223,7 @@ export default function QuizPage() {
   const isCorrect = cardState === 'correct'
   const isWrong = cardState === 'wrong'
   const correctAnswer = currentQuizType === 'en_to_zh' ? currentItem.chinese : currentItem.english
+  const wordImage = resolveWordImage(currentItem.english)
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 max-w-md mx-auto relative">
@@ -279,6 +281,18 @@ export default function QuizPage() {
             {/* 音标 */}
             {currentItem.phonetic && currentQuizType === 'en_to_zh' && (
               <p className="text-sm text-gray-400 mb-3">[{currentItem.phonetic}]</p>
+            )}
+
+            {/* 教材配套插图（命中语音包时展示） */}
+            {wordImage && (
+              <div className="flex justify-center mb-3">
+                <img
+                  src={wordImage}
+                  alt={currentItem.english}
+                  loading="lazy"
+                  className="h-32 object-contain rounded-2xl"
+                />
+              </div>
             )}
 
             {/* ── 结果区 ──

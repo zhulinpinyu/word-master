@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { getWordbookDetail, importWords, exportWordbook, getPlan, createPlan, patchPlan, getForecast } from '@/api'
 import { useStudent } from '@/hooks/useStudent'
+import { resolveWordImage } from '@/utils/voicePackage'
 import type { WordbookDetail, Item, StudyPlan, Forecast } from '@/types'
 import LearningForecastChart from '@/components/LearningForecastChart'
 
@@ -155,24 +156,35 @@ export default function WordbookDetailPage() {
         </div>
       ) : (
         <div className="divide-y divide-gray-100">
-          {wordbook.items.map(item => (
-            <div key={item.id} className="flex items-center py-3 gap-3">
-              <span
-                className={`text-xs px-1.5 py-0.5 rounded font-medium shrink-0 ${
-                  item.type === 'word'
-                    ? 'bg-blue-50 text-blue-500'
-                    : 'bg-orange-50 text-orange-500'
-                }`}
-              >
-                {item.type === 'word' ? '词' : '句'}
-              </span>
-              <div className="flex-1 min-w-0">
-                <p className="font-medium text-gray-800 truncate">{item.english}</p>
-                <p className="text-sm text-gray-500 truncate">{item.chinese}</p>
+          {wordbook.items.map(item => {
+            const image = resolveWordImage(item.english)
+            return (
+              <div key={item.id} className="flex items-center py-3 gap-3">
+                {image && (
+                  <img
+                    src={image}
+                    alt={item.english}
+                    loading="lazy"
+                    className="w-11 h-11 rounded-lg object-cover shrink-0 bg-gray-50"
+                  />
+                )}
+                <span
+                  className={`text-xs px-1.5 py-0.5 rounded font-medium shrink-0 ${
+                    item.type === 'word'
+                      ? 'bg-blue-50 text-blue-500'
+                      : 'bg-orange-50 text-orange-500'
+                  }`}
+                >
+                  {item.type === 'word' ? '词' : '句'}
+                </span>
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-gray-800 truncate">{item.english}</p>
+                  <p className="text-sm text-gray-500 truncate">{item.chinese}</p>
+                </div>
+                <span className={`text-lg ${getMasteryColor(item)}`}>●</span>
               </div>
-              <span className={`text-lg ${getMasteryColor(item)}`}>●</span>
-            </div>
-          ))}
+            )
+          })}
         </div>
       )}
 
