@@ -58,6 +58,8 @@ describe('stagesFor', () => {
     const chick = stagesFor('chick')!
     expect(cow[1].emoji).toBe('🐮')
     expect(chick[1].emoji).toBe('🐣')
+    // 末段「传说」形态：小鸡进化成凤凰
+    expect(chick[6].emoji).toBe('🐦‍🔥')
     expect(cow.map(s => [s.name, s.min_words])).toEqual(cat.map(s => [s.name, s.min_words]))
     expect(chick.map(s => [s.name, s.min_words])).toEqual(cat.map(s => [s.name, s.min_words]))
   })

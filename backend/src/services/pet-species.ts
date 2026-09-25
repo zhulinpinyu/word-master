@@ -34,7 +34,7 @@ export const DEFAULT_STAGE_EMOJI = '🥚'
 export const PET_SPECIES: PetSpecies[] = [
   { id: 'cat',   name: '小猫', call: '喵~',  emojis: ['🥚', '🐱', '😺', '😸', '🐈', '🐯', '🦁'] },
   { id: 'cow',   name: '小牛', call: '哞~',  emojis: ['🥚', '🐮', '🐄', '🐂', '🐃', '🦬', '🐉'] },
-  { id: 'chick', name: '小鸡', call: '叽叽', emojis: ['🥚', '🐣', '🐥', '🐔', '🐓', '🦅', '🦚'] },
+  { id: 'chick', name: '小鸡', call: '叽叽', emojis: ['🥚', '🐣', '🐥', '🐔', '🐓', '🦅', '🐦‍🔥'] },
 ]
 
 const SPECIES_BY_ID = new Map(PET_SPECIES.map(s => [s.id, s]))
