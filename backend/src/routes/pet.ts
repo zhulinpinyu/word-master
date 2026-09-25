@@ -13,18 +13,16 @@
 import { Router } from 'express'
 import db from '../db/client'
 import { todayInt } from './tasks'
+import {
+  PET_SPECIES,
+  DEFAULT_STAGE_EMOJI,
+  isSpeciesId,
+  stagesFor,
+  stageIndexFor,
+  speciesCall,
+} from '../services/pet-species'
 
 const router = Router()
-
-// ── 宠物成长阶段 ─────────────────────────────────────────────────
-const STAGES = [
-  { name: '神秘蛋', emoji: '🥚', min_words: 0 },
-  { name: '幼崽',   emoji: '🐣', min_words: 10 },
-  { name: '少年',   emoji: '🐥', min_words: 30 },
-  { name: '青年',   emoji: '🐦', min_words: 60 },
-  { name: '成年',   emoji: '🦅', min_words: 100 },
-  { name: '传说',   emoji: '🦋', min_words: 200 },
-]
 
 // ── 商店物品定义 ─────────────────────────────────────────────────
 export const SHOP_ITEMS = [
@@ -82,6 +80,7 @@ interface PetRow {
   coins: number
   mood_boost: number
   last_game_date: number
+  species: string | null
   created_at: number
   updated_at: number
 }
@@ -127,6 +126,17 @@ function yesterdayInt(): number {
   d.setDate(d.getDate() - 1)
   return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate()
 }
+
+// ── GET /species ────────────────────────────────────────────────
+// 可选宠物目录（含完整进化线），供选择页预览。
+// 必须定义在 GET /:studentId 之前，否则会被当成 studentId。
+router.get('/species', (_req, res) => {
+  res.json(PET_SPECIES.map(s => ({
+    id: s.id,
+    name: s.name,
+    stages: stagesFor(s.id),
+  })))
+})
 
 // ── GET /:studentId ───────────────────────────────────────────────
 router.get('/:studentId', (req, res) => {
@@ -186,11 +196,10 @@ router.get('/:studentId', (req, res) => {
   `).get(studentId, sevenDaysAgo) as { c: number }).c
   const energy = Math.min(100, Math.round((recentActivity / 30) * 100))
 
-  // 当前成长阶段
-  let stage = 0
-  for (let i = STAGES.length - 1; i >= 0; i--) {
-    if (introduced >= STAGES[i].min_words) { stage = i; break }
-  }
+  // 当前成长阶段（未选择种类时占位为神秘蛋，不暴露阶段）
+  const species = isSpeciesId(pet.species) ? pet.species : null
+  const stages = stagesFor(species)
+  const stage = stages ? stageIndexFor(introduced) : 0
 
   // 是否生病（饱食度和心情双低）
   const isSick = hunger < 20 || (mood < 30 && cleanliness < 30)
@@ -201,19 +210,23 @@ router.get('/:studentId', (req, res) => {
   else if (hunger < 40 || mood < 40) speechKey = 'hungry'
   else if (hunger >= 70 && mood >= 70) speechKey = 'happy'
   const arr = SPEECHES[speechKey]
-  const speech = arr[Math.floor(Math.random() * arr.length)]
+  const baseSpeech = arr[Math.floor(Math.random() * arr.length)]
+  const call = speciesCall(species)
+  const speech = call ? `${baseSpeech} ${call}` : baseSpeech
 
   // 进化信息
-  const nextStage = stage < STAGES.length - 1 ? STAGES[stage + 1] : null
+  const nextStage = stages && stage < stages.length - 1 ? stages[stage + 1] : null
 
   // 今日是否已喂食 / 已玩游戏
   const fedToday       = pet.last_fed_date  === today
   const playedGameToday = pet.last_game_date === today
 
   res.json({
+    species,
+    stages,
     stage,
-    stage_name:        STAGES[stage].name,
-    stage_emoji:       STAGES[stage].emoji,
+    stage_name:        stages ? stages[stage].name : '神秘蛋',
+    stage_emoji:       stages ? stages[stage].emoji : DEFAULT_STAGE_EMOJI,
     hunger,
     mood,
     cleanliness,
@@ -232,6 +245,31 @@ router.get('/:studentId', (req, res) => {
     introduced_count:  introduced,
     overdue_count:     overdue,
   })
+})
+
+// ── POST /:studentId/species ─────────────────────────────────────
+// 一次性选择宠物种类：非法值 400，已选过 409。只写 species，不碰其它字段。
+router.post('/:studentId/species', (req, res) => {
+  const studentId = Number(req.params.studentId)
+  const student = db.prepare('SELECT id FROM students WHERE id = ?').get(studentId)
+  if (!student) { res.status(404).json({ error: '学生不存在' }); return }
+
+  const { species } = req.body as { species?: unknown }
+  if (!isSpeciesId(species)) {
+    res.status(400).json({ error: '无效的宠物种类' })
+    return
+  }
+
+  const pet = getOrCreatePet(studentId)
+  if (isSpeciesId(pet.species)) {
+    res.status(409).json({ error: '已经选择过宠物种类，不能更改' })
+    return
+  }
+
+  db.prepare('UPDATE pet_status SET species = ? WHERE student_id = ?')
+    .run(species, studentId)
+
+  res.json({ success: true, species })
 })
 
 // ── POST /:studentId/feed ─────────────────────────────────────────

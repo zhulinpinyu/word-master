@@ -156,6 +156,8 @@ export function initSchema() {
     ['coins',           'INTEGER NOT NULL DEFAULT 0'],
     ['mood_boost',      'INTEGER NOT NULL DEFAULT 0'],
     ['last_game_date',  'INTEGER NOT NULL DEFAULT 0'],
+    // 宠物种类：cat / cow / chick；NULL = 尚未选择（老数据兼容）
+    ['species',         'TEXT'],
   ]
   for (const [col, def] of petNewCols) {
     try { db.exec(`ALTER TABLE pet_status ADD COLUMN ${col} ${def}`) } catch { /* 列已存在 */ }
