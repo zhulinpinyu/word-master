@@ -155,7 +155,21 @@ export interface WordbookStats {
 
 // ── 宠物系统 ─────────────────────────────────────────────────────
 
+export interface PetStage {
+  name: string
+  emoji: string
+  min_words: number
+}
+
+export interface PetSpeciesOption {
+  id: string
+  name: string
+  stages: PetStage[]
+}
+
 export interface PetStatus {
+  species: string | null
+  stages: PetStage[] | null
   stage: number
   stage_name: string
   stage_emoji: string

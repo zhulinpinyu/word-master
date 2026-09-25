@@ -240,9 +240,11 @@ export default function HomePage() {
             )}
           </div>
           <p className="text-4xl mb-1">
-            {pet ? (pet.is_sick ? '🤒' : pet.stage_emoji) : '🥚'}
+            {pet ? (pet.species === null ? '🥚' : pet.is_sick ? '🤒' : pet.stage_emoji) : '🥚'}
           </p>
-          <p className="text-xs font-semibold text-gray-700">{pet?.stage_name ?? '加载中…'}</p>
+          <p className="text-xs font-semibold text-gray-700">
+            {pet ? (pet.species === null ? '点我选宠物' : pet.stage_name) : '加载中…'}
+          </p>
           {pet && (
             <div className="mt-2 h-1.5 bg-gray-100 rounded-full overflow-hidden">
               <div

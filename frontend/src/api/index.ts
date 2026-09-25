@@ -3,7 +3,7 @@ import type {
   QuizSessionDetail, QuizAnswer, QuizFinishResult,
   ItemWithMastery, QuizType,
   StudyPlan, TodayTask, PlanSessionDetail, WordbookStats,
-  PetStatus, PetFeedResult,
+  PetStatus, PetFeedResult, PetSpeciesOption,
   Forecast,
 } from '@/types'
 
@@ -179,6 +179,17 @@ export const getWordbookStats = (student_id: number, wordbook_id: number) =>
 
 export const getPetStatus = (student_id: number) =>
   request<PetStatus>(`/pet/${student_id}`)
+
+/** 可选宠物目录（含各类完整进化线），供选择页预览 */
+export const getPetSpeciesOptions = () =>
+  request<PetSpeciesOption[]>('/pet/species')
+
+/** 一次性选择宠物种类（已选过会返回 409） */
+export const setPetSpecies = (student_id: number, species: string) =>
+  request<{ success: boolean; species: string }>(`/pet/${student_id}/species`, {
+    method: 'POST',
+    body: JSON.stringify({ species }),
+  })
 
 export const feedPet = (student_id: number, accuracy?: number) =>
   request<PetFeedResult>(`/pet/${student_id}/feed`, {

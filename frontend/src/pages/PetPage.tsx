@@ -1,8 +1,8 @@
 import { useEffect, useState, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useStudent } from '@/hooks/useStudent'
-import { getPetStatus, feedPet, useSnack, getShopItems, buyShopItem } from '@/api'
-import type { PetStatus, ShopItem } from '@/types'
+import { getPetStatus, feedPet, useSnack, getShopItems, buyShopItem, getPetSpeciesOptions, setPetSpecies } from '@/api'
+import type { PetStatus, PetStage, PetSpeciesOption, ShopItem } from '@/types'
 
 // ── 状态条组件 ────────────────────────────────────────────────────
 function StatusBar({
@@ -45,14 +45,13 @@ function petAnimClass(pet: PetStatus): string {
 }
 
 // ── 进化阶段进度条 ────────────────────────────────────────────────
-const STAGE_THRESHOLDS = [0, 10, 30, 60, 100, 200]
-const STAGE_EMOJIS = ['🥚', '🐣', '🐥', '🐦', '🦅', '🦋']
-
-function StageProgress({ introduced, stage }: { introduced: number; stage: number }) {
-  const currentMin = STAGE_THRESHOLDS[stage]
-  const nextMin = STAGE_THRESHOLDS[stage + 1] ?? null
-  const pct = nextMin
-    ? Math.min(100, Math.round(((introduced - currentMin) / (nextMin - currentMin)) * 100))
+function StageProgress({ introduced, stage, stages }: {
+  introduced: number; stage: number; stages: PetStage[]
+}) {
+  const currentMin = stages[stage].min_words
+  const next = stages[stage + 1] ?? null
+  const pct = next
+    ? Math.min(100, Math.round(((introduced - currentMin) / (next.min_words - currentMin)) * 100))
     : 100
 
   return (
@@ -60,18 +59,18 @@ function StageProgress({ introduced, stage }: { introduced: number; stage: numbe
       <div className="flex justify-between items-center mb-1.5">
         <span className="text-xs text-gray-500">成长进度</span>
         <span className="text-xs text-gray-400">
-          {nextMin ? `${introduced} / ${nextMin} 词 → ${STAGE_EMOJIS[stage + 1] ?? ''}` : '已达最高阶段 🎊'}
+          {next ? `${introduced} / ${next.min_words} 词 → ${next.emoji}` : '已达最高阶段 🎊'}
         </span>
       </div>
       <div className="flex items-center gap-2">
-        <span className="text-base">{STAGE_EMOJIS[stage]}</span>
+        <span className="text-base">{stages[stage].emoji}</span>
         <div className="flex-1 h-2.5 bg-gray-100 rounded-full overflow-hidden">
           <div
             className="h-full bg-gradient-to-r from-primary-400 to-primary-600 rounded-full transition-all duration-700"
             style={{ width: `${pct}%` }}
           />
         </div>
-        <span className="text-base">{STAGE_EMOJIS[Math.min(stage + 1, 5)]}</span>
+        <span className="text-base">{stages[Math.min(stage + 1, stages.length - 1)].emoji}</span>
       </div>
     </div>
   )
@@ -159,6 +158,110 @@ function ShopSheet({
           })}
         </div>
       </div>
+    </div>
+  )
+}
+
+// ── 首次选择宠物种类（全屏） ──────────────────
+function SpeciesPicker({ studentId, onPicked }: { studentId: number; onPicked: () => void }) {
+  const [options, setOptions] = useState<PetSpeciesOption[]>([])
+  const [selected, setSelected] = useState<PetSpeciesOption | null>(null)
+  const [confirming, setConfirming] = useState(false)
+  const [saving, setSaving] = useState(false)
+  const [error, setError] = useState('')
+
+  useEffect(() => {
+    getPetSpeciesOptions()
+      .then(setOptions)
+      .catch(() => setError('加载宠物列表失败，请稍后重试'))
+  }, [])
+
+  const confirm = async () => {
+    if (!selected) return
+    setSaving(true)
+    setError('')
+    try {
+      await setPetSpecies(studentId, selected.id)
+      onPicked()
+    } catch (e) {
+      setError((e as Error).message)
+      setSaving(false)
+    }
+  }
+
+  return (
+    <div className="min-h-screen bg-gray-50 px-4 pt-8 pb-12 max-w-md mx-auto">
+      <div className="text-center mb-6">
+        <p className="text-5xl mb-3 animate-bounce">🥚</p>
+        <h1 className="text-xl font-bold text-gray-800">选一只你的宠物</h1>
+        <p className="text-sm text-gray-400 mt-1">它会陪你一起背单词，一起长大～</p>
+      </div>
+
+      <div className="flex flex-col gap-3">
+        {options.map(opt => {
+          const active = selected?.id === opt.id
+          return (
+            <button
+              key={opt.id}
+              onClick={() => { setSelected(opt); setConfirming(false); setError('') }}
+              className={`text-left rounded-2xl border-2 p-4 transition-all active:scale-[0.98]
+                ${active ? 'border-primary-500 bg-primary-50' : 'border-gray-200 bg-white'}`}
+            >
+              <div className="flex items-center justify-between mb-3">
+                <span className="text-base font-bold text-gray-800">{opt.name}</span>
+                {active && <span className="text-xs text-primary-600 font-medium">已选择</span>}
+              </div>
+              <div className="flex items-center justify-between gap-1">
+                {opt.stages.map((s, i) => (
+                  <div key={s.name} className="flex items-center gap-0.5 min-w-0">
+                    <span className="text-2xl leading-none">{s.emoji}</span>
+                    {i < opt.stages.length - 1 && <span className="text-gray-300 text-[10px]">›</span>}
+                  </div>
+                ))}
+              </div>
+              <div className="flex justify-between text-[10px] text-gray-400 mt-1">
+                <span>{opt.stages[0].name}</span>
+                <span>{opt.stages[opt.stages.length - 1].name}</span>
+              </div>
+            </button>
+          )
+        })}
+      </div>
+
+      {error && <p className="text-red-500 text-sm text-center mt-4">{error}</p>}
+
+      {confirming && selected ? (
+        <div className="mt-6 bg-white rounded-2xl border border-gray-200 p-4">
+          <p className="text-sm text-gray-700 text-center mb-1">
+            确定要选 <span className="font-bold">{selected.name}</span> 吗？
+          </p>
+          <p className="text-xs text-gray-400 text-center mb-4">一旦选定就不能再更改了哦</p>
+          <div className="flex gap-3">
+            <button
+              onClick={() => setConfirming(false)}
+              disabled={saving}
+              className="flex-1 border border-gray-300 text-gray-600 py-2.5 rounded-xl"
+            >
+              再想想
+            </button>
+            <button
+              onClick={confirm}
+              disabled={saving}
+              className="flex-1 bg-primary-600 text-white py-2.5 rounded-xl disabled:opacity-50"
+            >
+              {saving ? '保存中…' : '就选它'}
+            </button>
+          </div>
+        </div>
+      ) : (
+        <button
+          onClick={() => selected && setConfirming(true)}
+          disabled={!selected}
+          className="w-full mt-6 py-3.5 rounded-2xl font-bold bg-primary-600 text-white disabled:opacity-40 active:scale-95 transition-all"
+        >
+          就选它
+        </button>
+      )}
     </div>
   )
 }
@@ -255,6 +358,11 @@ export default function PetPage() {
   }
 
   if (!pet) return null
+
+  // 尚未选择宠物种类 → 强制全屏选择（老用户下次进入补选，进度不变）
+  if (!pet.species || !pet.stages) {
+    return <SpeciesPicker studentId={student!.id} onPicked={load} />
+  }
 
   const moodBg = pet.is_sick
     ? 'from-gray-100 to-gray-200'
@@ -378,7 +486,7 @@ export default function PetPage() {
 
       {/* 成长进度 */}
       <div className="mb-4">
-        <StageProgress introduced={pet.introduced_count} stage={pet.stage} />
+        <StageProgress introduced={pet.introduced_count} stage={pet.stage} stages={pet.stages} />
       </div>
 
       {/* 生病诊断卡（仅生病时显示）*/}
