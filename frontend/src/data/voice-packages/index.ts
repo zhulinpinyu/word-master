@@ -8,6 +8,7 @@
  */
 
 import hjbszSanshang from './hjbsz-sanshang.json'
+import hjbszYishang from './hjbsz-yishang.json'
 
 export interface VoicePackageWord {
   word: string
@@ -36,4 +37,5 @@ export interface VoicePackage {
 
 export const VOICE_PACKAGES: VoicePackage[] = [
   hjbszSanshang as VoicePackage,
+  hjbszYishang as VoicePackage,
 ]

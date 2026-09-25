@@ -7,7 +7,8 @@
     "dev:frontend": "npm run dev --prefix frontend",
     "dev:backend": "npm run dev --prefix backend",
     "test:scripts": "node --test \"scripts/**/*.test.mjs\"",
-    "fetch:voice-package": "node scripts/fetch-voice-package.mjs --id hjbsz-sanshang --name '沪教版（三起）(新)三年级上册' --version-tag hjbsz --term 1 --grade 3 --stage 1"
+    "fetch:voice-package": "node scripts/fetch-voice-package.mjs --id hjbsz-sanshang --name '沪教版（三起）(新)三年级上册' --version-tag hjbsz --term 1 --grade 3 --stage 1",
+    "fetch:voice-package:yishang": "node scripts/fetch-voice-package.mjs --id hjbsz-yishang --name '沪教版（深圳）一年级上册' --version-tag hjbsz --term 1 --grade 1 --stage 1"
   },
   "devDependencies": {
     "concurrently": "^9.0.0"

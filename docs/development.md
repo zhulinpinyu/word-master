@@ -96,8 +96,11 @@ have a good time 玩得开心
 语音包由脚本从「英语朗读宝」公开接口生成，在仓库根目录执行：
 
 ```bash
-# 已内置沪教版（三起）三年级上册（id: hjbsz-sanshang）
-npm run fetch:voice-package
+# 已内置：
+#   沪教版（三起）三年级上册  id: hjbsz-sanshang  (grade 3)
+#   沪教版（深圳）一年级上册  id: hjbsz-yishang  (grade 1)
+npm run fetch:voice-package            # 三上
+npm run fetch:voice-package:yishang    # 一上
 
 # 新增其它教材：指定 id / 名称 / 版本 tag / 学期 / 年级 / 学段
 node scripts/fetch-voice-package.mjs \
@@ -109,7 +112,7 @@ node scripts/fetch-voice-package.mjs \
 |------|------|
 | `--id` | 语音包标识，同时作为输出文件名 |
 | `--name` | 展示名称 |
-| `--version-tag` | 教材版本 tag（如 `hjbsz` = 沪教版（三起）） |
+| `--version-tag` | 教材版本 tag（沪教版系列均为 `hjbsz`，靠 `--grade` 区分三起 / 深圳） |
 | `--term` | 学期：`1`=上册，`2`=下册，`3`=全册 |
 | `--grade` | 年级：`1`~`9` |
 | `--stage` | 学段：`1`=小学，`2`=初中，`3`=高中 |

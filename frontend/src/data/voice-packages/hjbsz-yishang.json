@@ -1,0 +1,711 @@
+{
+  "id": "hjbsz-yishang",
+  "name": "沪教版（深圳）一年级上册",
+  "book": "沪教版（深圳） 一年级上册",
+  "source": "https://api.suyang123.com/api/jxh5/yy/book/words?version_tag=hjbsz&term_id=1&grade_id=1&stage_id=1",
+  "generatedAt": "2026-09-25",
+  "units": [
+    {
+      "lessonId": 1,
+      "title": "Unit 1 Hello",
+      "words": [
+        {
+          "word": "hello",
+          "chinese": "int. 喂，你好",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724355_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/b97892dc-f4d6-11eb-babc-00163e135ac6.jpg"
+        },
+        {
+          "word": "hi",
+          "chinese": "int. 嗨，你好",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724356_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/dc012792-ccae-11ea-ba28-b42e99c756f3.jpg"
+        },
+        {
+          "word": "goodbye",
+          "chinese": "int. 再见",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724357_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/A01_goodbye.jpg"
+        },
+        {
+          "word": "morning",
+          "chinese": "n. 早上；上午",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724358_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4c1fef9c-a62c-11ea-908f-b42e99c756f3.jpg"
+        },
+        {
+          "word": "afternoon",
+          "chinese": "n. 下午",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724359_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5edadce4-a62c-11ea-86a8-b42e99c756f3.jpg"
+        },
+        {
+          "word": "I",
+          "chinese": "pron. 我",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724360_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/870de510-a615-11ea-a7d3-b42e99c756f3.jpg"
+        },
+        {
+          "word": "am",
+          "chinese": "v. 是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724361_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8b448446-f03c-11eb-a3ac-b42e99c756f3.jpg"
+        },
+        {
+          "word": "school",
+          "chinese": "n. 学校",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724362_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2ccb2c0c-8463-11ea-8dbb-b42e9969d22a.jpg"
+        },
+        {
+          "word": "day",
+          "chinese": "n. 一天；一日",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724363_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a32b8e82-fa7e-11eb-91e7-00163e135ac6.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 2,
+      "title": "Unit 2 My classmates",
+      "words": [
+        {
+          "word": "give",
+          "chinese": "v. 给",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724364_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a3c5d0c2-f03c-11eb-9d0d-b42e99c756f3.jpg"
+        },
+        {
+          "word": "me",
+          "chinese": "pron. 我",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724365_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8e7a8f92-f03c-11eb-9763-b42e99c756f3.jpg"
+        },
+        {
+          "word": "a",
+          "chinese": "art. 一，一个",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724366_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8bf0e99a-f03c-11eb-b2e5-b42e99c756f3.jpg"
+        },
+        {
+          "word": "please",
+          "chinese": "int. 请",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724367_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/73e2f96e-f03c-11eb-8b83-b42e99c756f3.jpg"
+        },
+        {
+          "word": "thank",
+          "chinese": "n. 谢谢",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724368_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/be9c1540-a629-11ea-aed6-b42e99c756f3.jpg"
+        },
+        {
+          "word": "you",
+          "chinese": "pron. 你；你们",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724369_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a100de94-a625-11ea-85ba-b42e99c756f3.jpg"
+        },
+        {
+          "word": "book",
+          "chinese": "n. 书",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724370_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a867dcb6-845e-11ea-bd3c-b42e9969d22a.jpg"
+        },
+        {
+          "word": "ruler",
+          "chinese": "n. 尺子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724371_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/e734c936-e877-11eb-a99d-00163e135ac6.jpg"
+        },
+        {
+          "word": "pencil",
+          "chinese": "n. 铅笔",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724372_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ecbe1c18-e877-11eb-9ebb-00163e135ac6.jpg"
+        },
+        {
+          "word": "rubber",
+          "chinese": "n. 橡皮",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724373_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2839.jpg"
+        },
+        {
+          "word": "on",
+          "chinese": "prep. 在(时间)",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724374_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/453f747a-f03c-11eb-aed5-b42e99c756f3.jpg"
+        },
+        {
+          "word": "Sunday",
+          "chinese": "n. 星期天；周日",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724375_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/1580e7d8-850c-11ea-8b0d-b42e9969d22a.jpg"
+        },
+        {
+          "word": "how",
+          "chinese": "adv. 多么；怎样；如何",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724376_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/98ac18be-a618-11ea-9fb8-b42e99c756f3.jpg"
+        },
+        {
+          "word": "nice",
+          "chinese": "adj. 好看的；美好的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724377_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/501a9258-f03c-11eb-9193-b42e99c756f3.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 3,
+      "title": "Unit 3 My face",
+      "words": [
+        {
+          "word": "this",
+          "chinese": "adj. 这；这个",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724378_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8a2fa95c-a617-11ea-9aaa-b42e99c756f3.jpg"
+        },
+        {
+          "word": "is",
+          "chinese": "v. 是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724379_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/e5be976c-a617-11ea-bc7e-b42e99c756f3.jpg"
+        },
+        {
+          "word": "my",
+          "chinese": "adj. 我的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724380_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/07ee07fe-a618-11ea-bedb-b42e99c756f3.jpg"
+        },
+        {
+          "word": "face",
+          "chinese": "n. 脸，面孔",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724381_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/f7a15e90-f0da-11eb-8262-00163e135ac6.jpg"
+        },
+        {
+          "word": "mouth",
+          "chinese": "n. 嘴巴",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724382_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/0b38d076-8462-11ea-9983-b42e9969d22a.jpg"
+        },
+        {
+          "word": "nose",
+          "chinese": "n. 鼻子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724383_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ff572610-f0da-11eb-8e14-00163e135ac6.jpg"
+        },
+        {
+          "word": "eye",
+          "chinese": "n. 眼睛",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724384_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5c546812-e5e3-11eb-a1f8-00163e135ac6.jpg"
+        },
+        {
+          "word": "ear",
+          "chinese": "n. 耳朵",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724385_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/bfff22ee-8461-11ea-b16a-b42e9969d22a.jpg"
+        },
+        {
+          "word": "touch",
+          "chinese": "v. 触；碰；摸",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724386_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8ee05d30-f03c-11eb-9a29-b42e99c756f3.jpg"
+        },
+        {
+          "word": "your",
+          "chinese": "adj. 你的，你们的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724387_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/f557fad0-fa7c-11eb-b95d-00163e135ac6.jpg"
+        },
+        {
+          "word": "picture",
+          "chinese": "n. 图画",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724388_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/b1d88f70-ccac-11ea-9ad1-b42e99c756f3.jpg"
+        },
+        {
+          "word": "look",
+          "chinese": "v. 看",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724389_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/d8fdbf90-e92a-11eb-89f9-00163e135ac6.jpg"
+        },
+        {
+          "word": "no",
+          "chinese": "adv. 不，不是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724390_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/c2c78c80-845e-11ea-acab-b42e9969d22a.jpg"
+        },
+        {
+          "word": "not",
+          "chinese": "adv. 不是",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724391_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/image/20220805171701_b01a31a4.png"
+        }
+      ]
+    },
+    {
+      "lessonId": 4,
+      "title": "Unit 4 I can sing",
+      "words": [
+        {
+          "word": "can",
+          "chinese": "aux. 能；能够",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724392_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4c821c80-a626-11ea-9874-b42e99c756f3.jpg"
+        },
+        {
+          "word": "sing",
+          "chinese": "v. 唱；歌唱",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724393_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/c09e1202-8514-11ea-9df2-b42e9969d22a.jpg"
+        },
+        {
+          "word": "dance",
+          "chinese": "n. 跳舞",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724394_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/58db4a1a-8515-11ea-8889-b42e9969d22a.jpg"
+        },
+        {
+          "word": "read",
+          "chinese": "v. 读，朗读",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724395_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/08645582-850f-11ea-8878-b42e9969d22a.jpg"
+        },
+        {
+          "word": "draw",
+          "chinese": "v. 画画",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724396_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/789fad46-8515-11ea-9da2-b42e9969d22a.jpg"
+        },
+        {
+          "word": "what",
+          "chinese": "adj. 什么",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724397_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/21950176-a618-11ea-9516-b42e99c756f3.jpg"
+        },
+        {
+          "word": "do",
+          "chinese": "v. 做",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724398_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/53505dcc-f03c-11eb-88d9-b42e99c756f3.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 5,
+      "title": "Unit 5 My family",
+      "words": [
+        {
+          "word": "who",
+          "chinese": "pron. 谁",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724399_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/8d63085c-ccb0-11ea-80dc-b42e99c756f3.jpg"
+        },
+        {
+          "word": "she",
+          "chinese": "pron. 她",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724400_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/7d18e1c0-f0df-11eb-8753-00163e135ac6.jpg"
+        },
+        {
+          "word": "grandmother",
+          "chinese": "n. 奶奶；外婆；(外)祖母 ...",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724401_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/6f1396d0-8468-11ea-9b12-b42e9969d22a.jpg"
+        },
+        {
+          "word": "he",
+          "chinese": "pron. 他",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724402_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/69cd1464-b45a-11ea-9d54-b42e99c756f3.jpg"
+        },
+        {
+          "word": "father",
+          "chinese": "n. 爸爸，父亲",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724403_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/c9bc9c10-8467-11ea-be24-b42e9969d22a.jpg"
+        },
+        {
+          "word": "grandfather",
+          "chinese": "n. 爷爷；外公；(外)祖父 ...",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724404_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ddfdff5c-8468-11ea-a5c8-b42e9969d22a.jpg"
+        },
+        {
+          "word": "mother",
+          "chinese": "n. 妈妈；母亲",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724405_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2698f274-8468-11ea-89b2-b42e9969d22a.jpg"
+        },
+        {
+          "word": "yes",
+          "chinese": "adv. 是，对",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724406_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/cf03c00a-a625-11ea-bada-b42e99c756f3.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 6,
+      "title": "Unit 6 My friends",
+      "words": [
+        {
+          "word": "tall",
+          "chinese": "adj. 高的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724407_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/fee086d2-8469-11ea-939e-b42e9969d22a.jpg"
+        },
+        {
+          "word": "short",
+          "chinese": "adj. 矮的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724408_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/55f08cf6-f4ea-11eb-9609-00163e135ac6.jpg"
+        },
+        {
+          "word": "fat",
+          "chinese": "adj. 胖的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724409_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4596bb96-f4ea-11eb-876b-00163e135ac6.jpg"
+        },
+        {
+          "word": "thin",
+          "chinese": "adj. 瘦的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724410_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3dda21ea-f4ea-11eb-8b9d-00163e135ac6.jpg"
+        },
+        {
+          "word": "classmate",
+          "chinese": "n. 同学",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724411_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/c8a11b4a-b45a-11ea-89f5-b42e99c756f3.jpg"
+        },
+        {
+          "word": "friend",
+          "chinese": "n. 朋友",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724412_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/9698ccba-8467-11ea-a7d3-b42e9969d22a.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 7,
+      "title": "Unit 7 Let's count",
+      "words": [
+        {
+          "word": "how many",
+          "chinese": "phra. 多少",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724413_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/ba2b3ec2-f03c-11eb-bd22-b42e99c756f3.jpg"
+        },
+        {
+          "word": "three",
+          "chinese": "num. 三",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724414_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/40f97a98-f0de-11eb-ac1a-00163e135ac6.jpg"
+        },
+        {
+          "word": "two",
+          "chinese": "num. 二",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724415_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3c85720a-f0de-11eb-8df4-00163e135ac6.jpg"
+        },
+        {
+          "word": "six",
+          "chinese": "num. 六",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724416_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4e05daa6-f0de-11eb-b592-00163e135ac6.jpg"
+        },
+        {
+          "word": "one",
+          "chinese": "num. 一",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724417_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/387768b2-f0de-11eb-a406-00163e135ac6.jpg"
+        },
+        {
+          "word": "four",
+          "chinese": "num. 四",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724418_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/451c7508-f0de-11eb-b640-00163e135ac6.jpg"
+        },
+        {
+          "word": "five",
+          "chinese": "num. 五",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724419_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4953f8c6-f0de-11eb-9656-00163e135ac6.jpg"
+        },
+        {
+          "word": "let's",
+          "chinese": "abbr. 让我们",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724420_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/222e8fbe-e92b-11eb-9b4d-00163e135ac6.jpg"
+        },
+        {
+          "word": "count",
+          "chinese": "v. 数数",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724421_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/d2099554-e927-11eb-bf20-00163e135ac6.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 8,
+      "title": "Unit 8 Apples, please",
+      "words": [
+        {
+          "word": "apple",
+          "chinese": "n. 苹果",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724422_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/05295712-846c-11ea-a4ec-b42e9969d22a.jpg"
+        },
+        {
+          "word": "pear",
+          "chinese": "n. 梨",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724423_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/f38d4276-846b-11ea-83a9-b42e9969d22a.jpg"
+        },
+        {
+          "word": "peach",
+          "chinese": "n. 桃子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724424_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/A05_peach.jpg"
+        },
+        {
+          "word": "orange",
+          "chinese": "n. 桔子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724425_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/eeebe054-f0da-11eb-9381-00163e135ac6.jpg"
+        },
+        {
+          "word": "at",
+          "chinese": "prep. 在(地点)",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724426_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/219b3024-a62b-11ea-9703-b42e99c756f3.jpg"
+        },
+        {
+          "word": "the",
+          "chinese": "art. (表示特指)",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724427_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/03d0191a-f03d-11eb-aedf-b42e99c756f3.jpg"
+        },
+        {
+          "word": "supermarket",
+          "chinese": "n. 超市",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724428_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/f9841192-853b-11ea-80c5-b42e9969d22a.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 9,
+      "title": "Unit 9 May I have a pie?",
+      "words": [
+        {
+          "word": "May",
+          "chinese": "aux. 可以",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724429_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/cc6e2bf4-852f-11ea-9c91-b42e9969d22a.jpg"
+        },
+        {
+          "word": "have",
+          "chinese": "v. 有；拥有",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724430_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/71347cfe-f4f2-11eb-bd18-00163e135ac6.jpg"
+        },
+        {
+          "word": "pie",
+          "chinese": "n. 果馅饼",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724431_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/b67066f0-f03c-11eb-9f4f-b42e99c756f3.jpg"
+        },
+        {
+          "word": "hamburger",
+          "chinese": "n. 汉堡包",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724432_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a419bd34-8511-11ea-9cff-b42e9969d22a.jpg"
+        },
+        {
+          "word": "pizza",
+          "chinese": "n. 比萨饼",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724433_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a6a52fc8-8537-11ea-bdb8-b42e9969d22a.jpg"
+        },
+        {
+          "word": "cake",
+          "chinese": "n. 蛋糕",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724434_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/30770e24-f0de-11eb-acc1-00163e135ac6.jpg"
+        },
+        {
+          "word": "snack",
+          "chinese": "n. 小吃；点心",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724435_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2872.jpg"
+        },
+        {
+          "word": "bar",
+          "chinese": "n. 小吃部",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724436_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/3310.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 10,
+      "title": "Unit 10 On the farm",
+      "words": [
+        {
+          "word": "moo",
+          "chinese": "n. (牛叫声)",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724437_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4252.jpg"
+        },
+        {
+          "word": "that",
+          "chinese": "pron. 那，那个",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724438_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/70ad4c34-f03c-11eb-87b4-b42e99c756f3.jpg"
+        },
+        {
+          "word": "cow",
+          "chinese": "n. 母牛；奶牛",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724439_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/75d75a34-847d-11ea-83e7-b42e9969d22a.jpg"
+        },
+        {
+          "word": "chick",
+          "chinese": "n. 小鸡",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724440_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2a715f0c-b542-11ea-aaad-b42e99c756f3.jpg"
+        },
+        {
+          "word": "peep",
+          "chinese": "n. (鸡叫声)",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724441_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4253.jpg"
+        },
+        {
+          "word": "duck",
+          "chinese": "n. 鸭子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724442_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a8142efe-e5e3-11eb-ba86-00163e135ac6.jpg"
+        },
+        {
+          "word": "pig",
+          "chinese": "n. 猪",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724443_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/af012c12-e5e3-11eb-97d7-00163e135ac6.png"
+        },
+        {
+          "word": "oink",
+          "chinese": "n. (猪叫声)",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724444_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/4254.jpg"
+        },
+        {
+          "word": "quack",
+          "chinese": "n. (鸭叫声)",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724445_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2934.jpg"
+        },
+        {
+          "word": "cut",
+          "chinese": "v. 剪下；切下",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724446_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a91fc560-ea02-11eb-a1d0-00163e135ac6.jpg"
+        },
+        {
+          "word": "stick",
+          "chinese": "v. 粘贴",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724447_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/a2a0c578-f03c-11eb-ae6c-b42e99c756f3.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 11,
+      "title": "Unit 11 In the zoo",
+      "words": [
+        {
+          "word": "monkey",
+          "chinese": "n. 猴子",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724448_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/1e1e553e-e5e4-11eb-84f2-00163e135ac6.jpg"
+        },
+        {
+          "word": "bear",
+          "chinese": "n. 熊",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724449_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/0b7186c2-e5e4-11eb-a226-00163e135ac6.jpg"
+        },
+        {
+          "word": "panda",
+          "chinese": "n. 熊猫",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724450_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/332967b6-e5e4-11eb-be72-00163e135ac6.png"
+        },
+        {
+          "word": "tiger",
+          "chinese": "n. 老虎",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724451_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/2d54ad50-e5e4-11eb-9e17-00163e135ac6.jpg"
+        }
+      ]
+    },
+    {
+      "lessonId": 12,
+      "title": "Unit 12 In the park",
+      "words": [
+        {
+          "word": "colour",
+          "chinese": "n. 颜色；涂色",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724452_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/565f7696-f4e7-11eb-a55a-00163e135ac6.jpg"
+        },
+        {
+          "word": "yellow",
+          "chinese": "adj. 黄色的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724453_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/24d4e1aa-e5e3-11eb-99df-00163e135ac6.jpg"
+        },
+        {
+          "word": "red",
+          "chinese": "adj. 红色的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724454_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/d72bc20e-f0da-11eb-b9fe-00163e135ac6.jpg"
+        },
+        {
+          "word": "blue",
+          "chinese": "adj. 蓝色的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724455_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/39cd59c2-9b43-11ea-a632-b42e9969d22a.jpg"
+        },
+        {
+          "word": "green",
+          "chinese": "adj. 绿色的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724456_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/29b472e4-e5e3-11eb-a1ff-00163e135ac6.jpg"
+        },
+        {
+          "word": "small",
+          "chinese": "adj. 小的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724457_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5cbf5f08-f4ea-11eb-9a9c-00163e135ac6.jpg"
+        },
+        {
+          "word": "go",
+          "chinese": "v. 发出(某种声音)",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724458_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/6e84ae70-f03c-11eb-9f61-b42e99c756f3.jpg"
+        },
+        {
+          "word": "big",
+          "chinese": "adj. 大的",
+          "audio": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/mp3/88379/724459_1.mp3",
+          "image": "https://ywld-1315558954.51jiaoxi.com/yy-static/word/img/5f553cae-846a-11ea-9d4d-b42e9969d22a.jpg"
+        }
+      ]
+    }
+  ]
+}
