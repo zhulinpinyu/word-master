@@ -88,7 +88,8 @@ have a good time 玩得开心
 ## 语音包（真人录音）
 
 播放单词发音时，会优先命中**语音包**里的真人录音（与教材同步），未命中才回退讯飞 TTS。
-语音包数据存放在 `frontend/src/data/voice-packages/<id>.json`，只记录每个单词的远程 MP3 地址，不下载音频文件。
+语音包数据存放在 `frontend/src/data/voice-packages/<id>.json`，只记录每个单词的**远程 MP3 地址**与**教材插图地址**（`image`），不下载音频 / 图片文件。
+单词本详情页与测验卡片会用同一份数据按单词查表展示教材插图。
 
 ### 生成 / 更新语音包
 
@@ -120,7 +121,8 @@ node scripts/fetch-voice-package.mjs \
 
 `frontend/src/utils/voicePackage.ts` 会把单词归一化（转小写、压缩空白、去掉结尾 `. ! ?`）后建索引，
 所以 `Good morning.`、`Hi.`、`a (an)` 这类带标点/括号的词也能命中。
-调用 `playPronunciation()`（`frontend/src/utils/pronunciation.ts`）时：命中语音包 → 播放远程 MP3；未命中 → `POST /api/tts`。
+- 发音：调用 `playPronunciation()`（`frontend/src/utils/pronunciation.ts`）时，命中语音包 → 播放远程 MP3；未命中 → `POST /api/tts`。
+- 插图：调用 `resolveWordImage()`（`frontend/src/utils/voicePackage.ts`）时，命中 → 返回远程图片地址；未命中 → 返回 `null`，页面不显示图片。
 
 > ⚠️ 当前语音包直接流式播放 CDN 上的 MP3，仍需联网。
 > 若要做成真正可断网使用的离线包，把生成结果里的 `audio` 改成本地路径，
@@ -141,6 +143,12 @@ npm run test:watch
 
 # 生成覆盖率报告（输出到 backend/coverage/）
 npm run test:coverage
+```
+
+脚本（`scripts/**/*.test.mjs`，如语音包生成器的转换逻辑）的单测在仓库根目录运行：
+
+```bash
+npm run test:scripts
 ```
 
 测试覆盖核心业务逻辑：
@@ -186,12 +194,13 @@ word-master/
 │   └── src/
 │       ├── pages/              # 页面组件
 │       ├── components/         # 通用组件（MasteryBar / TtsButton / VoiceInput）
-│       ├── data/voice-packages/# 语音包数据（单词 → 真人录音 URL）
+│       ├── data/voice-packages/# 语音包数据（单词 → 真人录音 / 插图 URL）
 │       ├── hooks/              # 数据 hooks
 │       ├── utils/              # 工具（发音播放 / 语音包查询 / 音效）
 │       └── api/index.ts        # 所有后端接口封装
 ├── scripts/
-│   └── fetch-voice-package.mjs # 从英语朗读宝生成语音包数据
+│   ├── fetch-voice-package.mjs # 从英语朗读宝生成语音包数据
+│   └── lib/voice-package.mjs   # 载荷 → 语音包结构的纯函数（含 node:test 单测）
 ├── docs/                       # 设计文档（数据库 schema / UX 设计）
 ├── Dockerfile                  # 三阶段构建
 ├── docker-compose.yml          # 生产部署配置

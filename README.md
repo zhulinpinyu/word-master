@@ -93,7 +93,7 @@ Word Master 就是为了解决这两个问题而生的。
 
 ### 🎧 教材语音包，发音就是课本
 
-内置沪教版（三起）三年级上册全套单词真人录音，播放时优先命中语音包，与课本发音一致。数据由 `scripts/fetch-voice-package.mjs` 生成，详见[开发文档](docs/development.md#语音包真人录音)。
+内置沪教版（三起）三年级上册全套单词**真人录音 + 教材插图**，播放时优先命中语音包，与课本发音一致；单词本列表和测验卡片会展示配套插图。数据由 `scripts/fetch-voice-package.mjs` 生成，详见[开发文档](docs/development.md#语音包真人录音)。
 
 ---
 
