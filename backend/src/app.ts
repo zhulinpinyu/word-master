@@ -18,19 +18,40 @@ dotenv.config()
 
 const app = express()
 
-app.use(cors({
-  origin: (origin, cb) => {
-    const extra = process.env.CORS_ORIGIN
-    if (
-      !origin ||
-      (extra && origin === extra) ||
-      /^https?:\/\/(localhost|127\.0\.0\.1|\d+\.\d+\.\d+\.\d+):5173$/.test(origin)
-    ) {
-      cb(null, true)
-    } else {
-      cb(new Error('Not allowed by CORS'))
-    }
-  },
+/** Vite dev server 的 Origin（本地开发、以及手机上连开发机调试时使用） */
+const DEV_ORIGIN_PATTERN = /^https?:\/\/(localhost|127\.0\.0\.1|\d+\.\d+\.\d+\.\d+):5173$/
+
+/**
+ * 判断 Origin 是否与请求自身同源。
+ *
+ * 浏览器对同源的 POST/PUT/DELETE 同样会带 Origin 头（GET/HEAD 不带），
+ * 而生产环境由后端自己托管前端、走的就是同源，因此必须放行，
+ * 否则所有写操作都会被后面的白名单判为跨域并报错。
+ * 只比较 host（含端口）、忽略协议，以兼容反向代理终止 TLS 的场景。
+ */
+function isSameOrigin(origin: string, host: string | undefined): boolean {
+  if (!host) return false
+  try {
+    return new URL(origin).host === host
+  } catch {
+    return false // 畸形 Origin，按非同源处理
+  }
+}
+
+app.use(cors((req, cb) => {
+  const origin = req.headers.origin
+  const extra = process.env.CORS_ORIGIN
+
+  // 同源判定需要 req.headers.host，所以用 (req, cb) 形式而非纯 origin 回调
+  const allowed = Boolean(
+    !origin ||
+    isSameOrigin(origin, req.headers.host) ||
+    (extra && origin === extra) ||
+    DEV_ORIGIN_PATTERN.test(origin)
+  )
+
+  if (!allowed) return cb(new Error('Not allowed by CORS'))
+  cb(null, { origin: true }) // origin: true → 回显请求方 Origin
 }))
 app.use(express.json())
 
