@@ -5,6 +5,9 @@ node_modules
 dist/
 build/
 
+# 镜像导出包（Docker 部署时本地构建产出，单个 ~141MB）
+dist-nas/
+
 # 测试覆盖率报告（构建产物，不提交）
 backend/coverage/
 frontend/coverage/
