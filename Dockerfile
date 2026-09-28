@@ -8,17 +8,22 @@ FROM node:20-slim AS frontend-build
 ARG VITE_BASE_URL=/
 ENV VITE_BASE_URL=$VITE_BASE_URL
 
+# 前端页面显示的版本号（短 SHA），默认 unknown 表示未注入
+ARG VITE_GIT_SHA=unknown
+
 WORKDIR /app/frontend
 COPY frontend/package*.json ./
 RUN npm ci
 COPY frontend/ ./
 
-# 获取 git SHA 写入 .env，供 Vite 构建时注入（无需手动传 --build-arg）
-RUN apt-get update && apt-get install -y --no-install-recommends git \
-    && rm -rf /var/lib/apt/lists/*
-COPY .git/ ./.git/
-RUN echo "VITE_GIT_SHA=$(git rev-parse --short HEAD)" >> .env \
-    && rm -rf .git
+# 版本号注入：由构建方传入，例如
+#   docker build --build-arg VITE_GIT_SHA=$(git rev-parse --short HEAD) .
+#
+# 不在这里 apt-get install git + COPY .git 自己算，原因：
+#   1) 省掉 apt-get，不再依赖可访问的 Debian 索引（国内网络拉 Packages 易断）
+#   2) 不再要求构建上下文包含真实 .git 目录，git worktree 里也能直接构建
+#   3) 少一层镜像，构建更快
+RUN echo "VITE_GIT_SHA=${VITE_GIT_SHA}" >> .env
 
 RUN npm run build
 
