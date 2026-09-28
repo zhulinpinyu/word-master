@@ -2,6 +2,9 @@
 **/dist
 **/coverage
 backend/data
+# 不再需要 .git：版本号改为 --build-arg VITE_GIT_SHA 传入，
+# 排除后构建上下文更小
+.git
 **/.env
 **/.env.*
 !**/.env.example
