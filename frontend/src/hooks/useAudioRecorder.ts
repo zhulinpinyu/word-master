@@ -10,6 +10,15 @@ export function useAudioRecorder() {
 
   const start = useCallback(async (onChunk?: (buf: ArrayBuffer) => void) => {
     onChunkRef.current = onChunk ?? null
+    // 非安全上下文下 navigator.mediaDevices 为 undefined，
+    // 直接调用会抛 TypeError（"Cannot read properties of undefined"），
+    // 这里给出可读的错误名，便于上层区分原因
+    if (!navigator.mediaDevices?.getUserMedia) {
+      throw new DOMException(
+        '当前环境不支持麦克风采集（需要 HTTPS 或 localhost）',
+        'NotSupportedError',
+      )
+    }
     const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
     const ctx = new AudioContext({ sampleRate: 16000 })
     const source = ctx.createMediaStreamSource(stream)

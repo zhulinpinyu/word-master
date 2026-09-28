@@ -45,6 +45,16 @@ export default function VoiceInput({ lang, onResult, onError, disabled }: Props)
   // ── 开始录音（同时建立流式 WebSocket） ──────────────────────────
   const doStart = useCallback(async () => {
     if (disabled) return
+
+    // 麦克风需要安全上下文（https 或 localhost）。提前拦截：
+    // 若先建 WebSocket 再失败，随后的 close() 会报
+    // 「WebSocket is closed before the connection is established」，
+    // 把真实原因（需要 HTTPS / 权限被拒）盖成一句「网络错误」。
+    if (!window.isSecureContext || !navigator.mediaDevices?.getUserMedia) {
+      onErrorRef.current?.('需要 HTTPS 才能使用麦克风，请改用 https:// 地址访问')
+      return
+    }
+
     // 关闭上一次残留 WS
     wsRef.current?.close()
     wsRef.current = null
@@ -55,6 +65,9 @@ export default function VoiceInput({ lang, onResult, onError, disabled }: Props)
     const proto = window.location.protocol === 'https:' ? 'wss:' : 'ws:'
     const ws = new WebSocket(`${proto}//${window.location.host}/api/stt/stream?lang=${lang}`)
     wsRef.current = ws
+
+    // 本连接是否已被主动放弃：主动 close() 不应报成网络故障
+    let aborted = false
 
     // WS 就绪：冲刷积压的音频块
     ws.onopen = () => {
@@ -75,6 +88,7 @@ export default function VoiceInput({ lang, onResult, onError, disabled }: Props)
       if (wsRef.current === ws) wsRef.current = null
     }
     ws.onerror = () => {
+      if (aborted) return // 主动放弃触发的 onerror，不是网络故障
       onErrorRef.current?.('网络错误，请重试')
       if (wsRef.current === ws) wsRef.current = null
     }
@@ -95,6 +109,7 @@ export default function VoiceInput({ lang, onResult, onError, disabled }: Props)
       // 连接成功：检查是否已在连接期间松手
       if (cancelledDuringConnectRef.current) {
         stop()
+        aborted = true
         ws.close(); if (wsRef.current === ws) wsRef.current = null
         setConnecting(false)
         return
@@ -103,6 +118,7 @@ export default function VoiceInput({ lang, onResult, onError, disabled }: Props)
       await new Promise<void>(r => setTimeout(r, CONNECT_DELAY))
       if (cancelledDuringConnectRef.current) {
         stop()
+        aborted = true
         ws.close(); if (wsRef.current === ws) wsRef.current = null
         setConnecting(false)
         return
@@ -112,19 +128,22 @@ export default function VoiceInput({ lang, onResult, onError, disabled }: Props)
       try { navigator.vibrate?.(40) } catch { /* 不支持震动忽略 */ }
     } catch (err) {
       setConnecting(false)
+      aborted = true
       ws.close(); if (wsRef.current === ws) wsRef.current = null
-      if (!window.isSecureContext) {
-        onError?.('需要 HTTPS 才能使用麦克风，请改用 https:// 地址访问')
-        return
-      }
+      // 区分具体原因，并把原始错误信息带出来：
+      // 之前统一报「网络错误」，导致任何麦克风问题都无法定位
       const name = err instanceof Error ? err.name : ''
       if (name === 'NotAllowedError' || name === 'PermissionDeniedError') {
-        onError?.('麦克风权限被拒绝，请在浏览器或系统设置中允许')
+        onErrorRef.current?.('麦克风权限被拒绝，请在浏览器或系统设置中允许')
+      } else if (name === 'NotFoundError' || name === 'DevicesNotFoundError') {
+        onErrorRef.current?.('没有检测到麦克风设备')
+      } else if (name === 'NotReadableError') {
+        onErrorRef.current?.('麦克风被其他程序占用，请关闭后重试')
       } else {
-        onError?.('无法访问麦克风，建议使用 Chrome 或 Safari')
+        onErrorRef.current?.(`无法访问麦克风：${err instanceof Error ? err.message : String(err)}`)
       }
     }
-  }, [disabled, lang, start, stop, onError])
+  }, [disabled, lang, start, stop])
 
   // ── 结束录音：取消立即停止，发送延迟 END_DELAY ms 以捕获尾词 ──
   const doStop = useCallback((cancelled: boolean) => {
