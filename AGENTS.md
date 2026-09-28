@@ -4,16 +4,25 @@
 
 ## 1. 永远先建 worktree + feature 分支
 
-**不要直接在 `main` 上改代码。** 每项工作从 `main` 拉一个 feature 分支，并在独立 worktree 里进行：
+**不要直接在 `main` 上改代码。** 每项工作从 `main` 拉一个 feature 分支，并在独立 worktree 里进行
+（以下命令均在**仓库根目录**执行）：
 
 ```bash
 git worktree add -b feat/<name> ../word-master.feat-<name> main
 cd ../word-master.feat-<name>
 
 # 复用主工作区的依赖（node_modules 已 gitignore，避免在每个 worktree 重复安装）
+# 注意：符号链接的相对路径是从**链接所在目录**解析的，
+# 所以子目录里的链接要多退一层（../../），写成 ../ 会指向 worktree 内的不存在的路径
 ln -s ../word-master/node_modules node_modules
-ln -s ../word-master/frontend/node_modules frontend/node_modules
-ln -s ../word-master/backend/node_modules backend/node_modules
+ln -s ../../word-master/frontend/node_modules frontend/node_modules
+ln -s ../../word-master/backend/node_modules backend/node_modules
+
+# 验证三个链接都指向真实存在的目录，避免拿到断链后测试莫名奇妙的报错
+# 用 -e 而不是 -f "$d/package.json"：node_modules 根目录并没有 package.json
+for d in node_modules frontend/node_modules backend/node_modules; do
+  [ -e "$d" ] && echo "✅ $d" || echo "❌ $d 断链"
+done
 ```
 
 - 分支命名：`feat/<name>`、`fix/<name>`（见 `COMMIT_CONVENTION.md`）。
